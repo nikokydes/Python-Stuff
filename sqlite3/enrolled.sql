@@ -1,0 +1,11 @@
+create table enrolled (studentId varchar(3), courseNumber varchar(6));
+insert into enrolled values ('411', 'SDV100');
+insert into enrolled values ('411', 'ITD132');
+insert into enrolled values ('411', 'ITP140');
+insert into enrolled values ('412', 'ITP100');
+insert into enrolled values ('412', 'ITP14p');
+insert into enrolled values ('412', 'ITP225');
+insert into enrolled values ('413', 'ITD132');
+insert into enrolled values ('413', 'ITP225');
+insert into enrolled values ('414', 'SDV100');
+insert into enrolled values ('414', 'ITD110');
