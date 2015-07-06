@@ -3,16 +3,26 @@
 #    Simple report of classes taught by each teacher
 #
 import sqlite3
+import csv
 
 
 def main(conn,cursor):
 
-    cursor.execute('''CREATE TABLE ProductDemands
-                      (Site_Name text, Commodity text, TimeIdx text, Demand real)''')
+    cursor.executescript("""
+           DROP TABLE IF EXISTS ProductDemands;
+           CREATE TABLE ProductDemands (Site_Name text, Commodity text, TimeIdx text, Demand real);
+           """)
 
-    cursor.execute("INSERT INTO ProductDemands VALUES ('AK','ASPHout','-1',0.15)")
+    # cursor.execute("INSERT INTO ProductDemands VALUES ('AK','ASPHout','-1',0.15)")
 
-    conn.commit()
+    with open('Product Demands.csv','rb') as fin: 
+        # csv.DictReader uses first line in file for column headings by default
+        dr = csv.DictReader(fin) # comma is default delimiter
+        to_db = [(i['Site_Name'], i['Commodity'], i['TimeIdx'], i['Demand']) for i in dr]
+
+    cursor.executemany("INSERT INTO ProductDemands (Site_Name, Commodity, TimeIdx, Demand) VALUES (?, ?, ?, ?);", to_db)
+ 
+    conn.commit()    
 
     cursor.execute("select * from ProductDemands")
     for demands in cursor.fetchall():
