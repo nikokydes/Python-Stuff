@@ -1,5 +1,5 @@
-sqlite3\*.gpr
-sqlite3\*.db
-sqlite3\*.gdx
+sqlite3/*.gpr
+sqlite3/*.db
+sqlite3/*.gdx
 
 
