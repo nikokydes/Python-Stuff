@@ -67,6 +67,8 @@ def main(argv=None):
     assert gdxDataWriteStrStart(gdxHandle, "ProductDemand", "Demand data", 3, GMS_DT_PAR , 0)
   
     cursor.execute("select * from ProductDemands")
+    # r = cursor.fetchone()
+    # print r.keys()
     for row in cursor:
         temp = []
         values[GMS_VAL_LEVEL] = row["Demand"]
