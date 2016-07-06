@@ -1,0 +1,12 @@
+Outfile,Filepath,Headers
+aSTEO_BrentPrice.csv,Scenario0001/source/input/Data/STEO,"Commodity,Date,Price"
+aPSM_CrudeImports.csv,Scenario0001/source/input/Data/STEO,"Commodity,Date,Volume"
+aPSM_HistCrudeProduction.csv,Scenario0001/source/input/Data/STEO,"Commodity,Date,Volume"
+aPSM_Inventories.csv,Scenario0001/source/input/Data/STEO,"Category,Commodity,Region,Date,Volume"
+aPSM_GasolinePrices.csv,Scenario0001/source/input/Data/STEO,"Region,Commodity,Date,Price"
+aSTEO_ProductDemands.csv,Scenario0001/source/input/Data/STEO,"Commodity,Date,Volume"
+consumption.csv,app/dashboard/maps,"Commodity,Date,Demand"
+aPSM_ProductExports.csv,Scenario0001/source/input/Data/STEO,"Commodity,Date,Volume"
+aPSM_ProductImports.csv,Scenario0001/source/input/Data/STEO,"Commodity,Date,Volume"
+aSTEO_CurrentOutput.csv,Scenario0001/source/output,"source,outputvar,date,volume"
+aSEDS_DemandData.csv,Scenario0001/source/input/Data/STEO,"State,Commodity,Date,Demand"

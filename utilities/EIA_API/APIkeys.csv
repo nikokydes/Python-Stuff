@@ -1,0 +1,724 @@
+series_id,Name,Category,Subcategory,Commodity,Region,Outfile,AdjFactor
+STEO.BREPUUS.M,"Brent crude oil spot price, Monthly",BrentPrice,none,crudeoil,US,aSTEO_BrentPrice.csv,1
+PET.MCRIMUS2.M,"U.S. Imports of Crude Oil, Monthly",CrudeImports,none,crudeoil,US,aPSM_CrudeImports.csv,1
+PET.MCRFPUS2.M,"U.S. Field Production of Crude Oil, Monthly",HistCrudeProduction,none,crudeoil,US,aPSM_HistCrudeProduction.csv,1
+PET.MCRSAP51.M,"West Coast (PADD 5) Crude Oil Stocks in Transit (on Ships) from Alaska, Monthly",Inventory,AKinTransit,crudeoil,PADD5,aPSM_Inventories.csv,1
+PET.MCRSLP11.M,"East Coast (PADD 1) Crude Oil Stocks at Leases, Monthly",Inventory,Leases,crudeoil,PADD1,aPSM_Inventories.csv,1
+PET.MCRSLP21.M,"Midwest (PADD 2) Crude Oil Stocks at Leases, Monthly",Inventory,Leases,crudeoil,PADD2,aPSM_Inventories.csv,1
+PET.MCRSLP31.M,"Gulf Coast (PADD 3) Crude Oil Stocks at Leases, Monthly",Inventory,Leases,crudeoil,PADD3,aPSM_Inventories.csv,1
+PET.MCRSLP41.M,"Rocky Mountain (PADD 4) Crude Oil Stocks at Leases, Monthly",Inventory,Leases,crudeoil,PADD4,aPSM_Inventories.csv,1
+PET.MCRSLP51.M,"West Coast (PADD 5) Crude Oil Stocks at Leases, Monthly",Inventory,Leases,crudeoil,PADD5,aPSM_Inventories.csv,1
+PET.MCRSFP11.M,"East Coast (PADD 1) Crude Oil Stocks at Tank Farms and Pipelines, Monthly",Inventory,Pipelines,crudeoil,PADD1,aPSM_Inventories.csv,1
+PET.MCRSFP21.M,"Midwest (PADD 2) Crude Oil Stocks at Tank Farms and Pipelines, Monthly",Inventory,Pipelines,crudeoil,PADD2,aPSM_Inventories.csv,1
+PET.MCRSFP31.M,"Gulf Coast (PADD 3) Crude Oil Stocks at Tank Farms and Pipelines, Monthly",Inventory,Pipelines,crudeoil,PADD3,aPSM_Inventories.csv,1
+PET.MCRSFP41.M,"Rocky Mountain (PADD 4) Crude Oil Stocks at Tank Farms and Pipelines, Monthly",Inventory,Pipelines,crudeoil,PADD4,aPSM_Inventories.csv,1
+PET.MCRSFP51.M,"West Coast (PADD 5) Crude Oil Stocks at Tank Farms and Pipelines, Monthly",Inventory,Pipelines,crudeoil,PADD5,aPSM_Inventories.csv,1
+PET.MCRRSP11.M,"East Coast (PADD 1) Crude Oil Stocks at Refineries, Monthly",Inventory,Refineries,crudeoil,PADD1,aPSM_Inventories.csv,1
+PET.MCRRSP21.M,"Midwest (PADD 2) Crude Oil Stocks at Refineries, Monthly",Inventory,Refineries,crudeoil,PADD2,aPSM_Inventories.csv,1
+PET.MCRRSP31.M,"Gulf Coast (PADD 3) Crude Oil Stocks at Refineries, Monthly",Inventory,Refineries,crudeoil,PADD3,aPSM_Inventories.csv,1
+PET.MCRRSP41.M,"Rocky Mountain (PADD 4) Crude Oil Stocks at Refineries, Monthly",Inventory,Refineries,crudeoil,PADD4,aPSM_Inventories.csv,1
+PET.MCRRSP51.M,"West Coast (PADD 5) Crude Oil Stocks at Refineries, Monthly",Inventory,Refineries,crudeoil,PADD5,aPSM_Inventories.csv,1
+PET.EER_EPMRU_PF4_RGC_DPG.M,"U.S. Gulf Coast Conventional Gasoline Regular Spot Price FOB, Monthly",HistoricalPrices,none,CFGout,GOM,aPSM_GasolinePrices.csv,1
+PET.EER_EPMRU_PF4_Y35NY_DPG.M,"New York Harbor Conventional Gasoline Regular Spot Price FOB, Monthly",HistoricalPrices,none,CFGout,NYC,aPSM_GasolinePrices.csv,1
+PET.EER_EPMRR_PF4_Y05LA_DPG.M,"Los Angeles Reformulated RBOB Regular Gasoline Spot Price, Monthly",HistoricalPrices,none,RBOB,LA,aPSM_GasolinePrices.csv,1
+STEO.ARTCPUS.M,"Asphalt and Road Oil Product Supplied, Monthly",ProductDemands,none,ASPHout,US,aSTEO_ProductDemands.csv,1000
+STEO.MGTCPUSX.M,"Motor Gasoline Product Supplied, Monthly",ProductDemands,none,CFGsout,US,aSTEO_ProductDemands.csv,1000
+STEO.PCTCPUS.M,"Petroleum Coke Product Supplied, Monthly",ProductDemands,none,COKout,US,aSTEO_ProductDemands.csv,1000
+STEO.DSTCPUS.M,"Diesel Fuel Consumption, Monthly",ProductDemands,none,DSUout,US,aSTEO_ProductDemands.csv,1000
+STEO.JFTCPUS.M,"Jet Fuel Product Supplied, Monthly",ProductDemands,none,JTAout,US,aSTEO_ProductDemands.csv,1000
+STEO.PRROPUS.M,"Propane/Propylene Product Supplied, Monthly",ProductDemands,none,LPGout,US,aSTEO_ProductDemands.csv,1000
+STEO.D2TCPUS.M,"Fuel Oil Consumption, Monthly",ProductDemands,none,N2Hout,US,aSTEO_ProductDemands.csv,1000
+STEO.RFTCPUS.M,"Residual Fuel Oil Product Supplied, Monthly",ProductDemands,none,N6Iout,US,aSTEO_ProductDemands.csv,1000
+STEO.MZTCPUS.M,"Other Liquid Fuels Product Supplied, Monthly",ProductDemands,none,Other,US,aSTEO_ProductDemands.csv,1000
+STEO.FETCPUS.M,"Petrochemical Feedstocks Product Supplied, Monthly",ProductDemands,none,PCFout,US,aSTEO_ProductDemands.csv,1000
+STEO.ARTCPUS.M,"Asphalt and Road Oil Product Supplied, Monthly",ProductDemandsGUI,none,asphalt,US,consumption.csv,1000
+STEO.PCTCPUS.M,"Petroleum Coke Product Supplied, Monthly",ProductDemandsGUI,none,coke,US,consumption.csv,1000
+STEO.DSTCPUS.M,"Diesel Fuel Consumption, Monthly",ProductDemandsGUI,none,diesel,US,consumption.csv,1000
+STEO.RFTCPUS.M,"Residual Fuel Oil Product Supplied, Monthly",ProductDemandsGUI,none,fueloil,US,consumption.csv,1000
+STEO.MGTCPUSX.M,"Motor Gasoline Product Supplied, Monthly",ProductDemandsGUI,none,gasoline,US,consumption.csv,1000
+STEO.D2TCPUS.M,"Fuel Oil Consumption, Monthly",ProductDemandsGUI,none,homeheatingoil,US,consumption.csv,1000
+STEO.JFTCPUS.M,"Jet Fuel Product Supplied, Monthly",ProductDemandsGUI,none,jetfuel,US,consumption.csv,1000
+STEO.PRTCPUS.M,"Propane/Propylene Product Supplied, Monthly",ProductDemandsGUI,none,propane,US,consumption.csv,1000
+PET.MO5EX_NUS-Z00_2.M,"U.S. Exports of Conventional Gasoline Blending Components, Monthly",ProductExports,none,CBOBs,US,aPSM_ProductExports.csv,1
+PET.MG4EX_NUS-Z00_2.M,"U.S. Exports of Conventional Motor Gasoline, Monthly",ProductExports,none,CFGsout,US,aPSM_ProductExports.csv,1
+PET.MCKEXUS2.M,"U.S. Exports of Petroleum Coke, Monthly",ProductExports,none,COKout,US,aPSM_ProductExports.csv,1
+PET.MD1EX_NUS-Z00_2.M,"U.S. Exports of Distillate Fuel Oil, Greater than 15 to 500 ppm Sulfur, Monthly",ProductExports,none,DSLout,US,aPSM_ProductExports.csv,1
+PET.M_EPDXL0_EEX_NUS-Z00_MBBLD.M,"U.S. Exports of Distillate Fuel Oil, 0 to 15 ppm Sulfur, Monthly",ProductExports,none,DSUout,US,aPSM_ProductExports.csv,1
+PET.M_EPOUK_EEX_NUS-Z00_MBBLD.M,"U.S. Exports of Kerosene and Light Oils, Monthly",ProductExports,none,GOPout,US,aPSM_ProductExports.csv,1
+PET.MKJEXUS2.M,"U.S. Exports of Kerosene-Type Jet Fuel, Monthly",ProductExports,none,JTAout,US,aPSM_ProductExports.csv,1
+PET.MPREXUS2.M,"U.S. Exports of Propane and Propylene, Monthly",ProductExports,none,LPGout,US,aPSM_ProductExports.csv,1
+PET.MLUEXUS2.M,"U.S. Exports of Lubricants, Monthly",ProductExports,none,LUBout,US,aPSM_ProductExports.csv,1
+PET.MDGEXUS2.M,"U.S. Exports of Distillate Fuel Oil, Greater Than 500 ppm Sulfur, Monthly",ProductExports,none,N2Hout,US,aPSM_ProductExports.csv,1
+PET.MREEXUS2.M,"U.S. Exports of Residual Fuel Oil, Monthly",ProductExports,none,N6Iout,US,aPSM_ProductExports.csv,1
+PET.M_EPOUN_EEX_NUS-Z00_MBBLD.M,"U.S. Exports of Naphthas and Lighter, Monthly",ProductExports,none,NAPout,US,aPSM_ProductExports.csv,1
+PET.MO1EX_NUS-Z00_2.M,"U.S. Exports of Reformulated Gasoline Blending Components, Monthly",ProductExports,none,RBOBs,US,aPSM_ProductExports.csv,1
+PET.M_EPOBGCG_IM0_R50-Z00_2.M,"West Coast (PADD 5) Imports of Conventional GTAB Gasoline Blending Components, Monthly",ProductImports,none,CaRBOBs,PADD5,aPSM_ProductImports.csv,1
+PET.M_EPOBGCO_IM0_R50-Z00_2.M,"West Coast (PADD 5) Imports of Conventional Other Gasoline Blending Components, Monthly",ProductImports,none,CaRBOBs,PADD5,aPSM_ProductImports.csv,1
+PET.M_EPOBGRR_IM0_R50-Z00_MBBLD.M,"West Coast (PADD V) Imports from  All Countries of Motor Gasoline Blending Components, RBOB, Monthly",ProductImports,none,CaRBOBs,PADD5,aPSM_ProductImports.csv,1
+PET.MO5IM_NUS-Z00_2.M,"U.S. Imports of Conventional Gasoline Blending Components, Monthly",ProductImports,none,CBOBs,US,aPSM_ProductImports.csv,1
+PET.MG4IM_NUS-Z00_2.M,"U.S. Imports of Conventional Motor Gasoline, Monthly",ProductImports,none,CFGsout,US,aPSM_ProductImports.csv,1
+PET.MCMIM_NUS-Z00_2.M,"U.S. Imports of Petroleum Coke Marketable, Monthly",ProductImports,none,COKout,PADD5,aPSM_ProductImports.csv,1
+PET.MD1IM_NUS-Z00_2.M,"U.S. Imports of Distillate Fuel Oil, Greater than 15 to 500 ppm Sulfur, Monthly",ProductImports,none,DSLout,US,aPSM_ProductImports.csv,1
+PET.MD0IM_NUS-Z00_2.M,"U.S. Imports of Distillate Fuel Oil, 0 to 15 ppm Sulfur, Monthly",ProductImports,none,DSUout,US,aPSM_ProductImports.csv,1
+PET.MUOIMUS2.M,"U.S. Imports of Unfinished Oils, Monthly",ProductImports,none,GO3,US,aPSM_ProductImports.csv,1
+PET.MKJIMUS2.M,"U.S. Imports of Kerosene-Type Jet Fuel, Monthly",ProductImports,none,JTAout,US,aPSM_ProductImports.csv,1
+PET.MLPIMUS2.M,"U.S. Imports of Liquified Petroleum Gases, Monthly",ProductImports,none,LPGout,US,aPSM_ProductImports.csv,1
+PET.MLUIMUS2.M,"U.S. Imports of Lubricants, Monthly",ProductImports,none,LUBout,US,aPSM_ProductImports.csv,1
+PET.MD2IM_NUS-Z00_2.M,"U.S. Imports of Distillate Fuel Oil, Greater than 500 to 2000 ppm Sulfur, Monthly",ProductImports,none,N2Hout,US,aPSM_ProductImports.csv,1
+PET.MREIMUS2.M,"U.S. Imports of Residual Fuel Oil, Monthly",ProductImports,none,N6Iout,US,aPSM_ProductImports.csv,1
+PET.MO1IM_NUS-Z00_2.M,"U.S. Imports of Reformulated Gasoline Blending Components, Monthly",ProductImports,none,RBOBs,US,aPSM_ProductImports.csv,1
+PET.MAPSBP11.M,"East Coast (PADD 1) Asphalt and Road Oil Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,ASPHout,PADD1,aPSM_Inventories.csv,1
+PET.MAPSBP21.M,"Midwest (PADD 2) Asphalt and Road Oil Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,ASPHout,PADD2,aPSM_Inventories.csv,1
+PET.MAPSBP31.M,"Gulf Coast (PADD 3) Asphalt and Road Oil Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,ASPHout,PADD3,aPSM_Inventories.csv,1
+PET.MAPSBP41.M,"Rocky Mountain (PADD 4) Asphalt and Road Oil Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,ASPHout,PADD4,aPSM_Inventories.csv,1
+PET.MAPSBP51.M,"West Coast (PADD 5) Asphalt and Road Oil Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,ASPHout,PADD5,aPSM_Inventories.csv,1
+PET.MGASBP11.M,"East Coast (PADD 1) Aviation Gasoline Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,AVGout,PADD1,aPSM_Inventories.csv,1
+PET.MGASBP21.M,"Midwest (PADD 2) Aviation Gasoline Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,AVGout,PADD2,aPSM_Inventories.csv,1
+PET.MGASBP31.M,"Gulf Coast (PADD 3) Aviation Gasoline Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,AVGout,PADD3,aPSM_Inventories.csv,1
+PET.MGASBP41.M,"Rocky Mountain (PADD 4) Aviation Gasoline Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,AVGout,PADD4,aPSM_Inventories.csv,1
+PET.MGASBP51.M,"West Coast (PADD 5) Aviation Gasoline Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,AVGout,PADD5,aPSM_Inventories.csv,1
+PET.MD0SB_R50_1.M,"West Coast (PADD 5) Distillate Fuel Oil, 0 to 15 ppm Sulfur Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,CarbDSUout,PADD5,aPSM_Inventories.csv,1
+PET.MO1SB_R50_1.M,"West Coast (PADD 5) Reformulated Gasoline Blending Components Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,CaRBOBs,PADD5,aPSM_Inventories.csv,1
+PET.MGRSBP51.M,"West Coast (PADD 5) Reformulated Motor Gasoline Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,CaRBOBsout,PADD5,aPSM_Inventories.csv,1
+PET.MO5SB_R10_1.M,"East Coast (PADD 1) Conventional Gasoline Blending Components Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,CBOBs,PADD1,aPSM_Inventories.csv,1
+PET.MO5SB_R20_1.M,"Midwest (PADD 2) Conventional Gasoline Blending Components Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,CBOBs,PADD2,aPSM_Inventories.csv,1
+PET.MO5SB_R30_1.M,"Gulf Coast (PADD 3) Conventional Gasoline Blending Components Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,CBOBs,PADD3,aPSM_Inventories.csv,1
+PET.MO5SB_R40_1.M,"Rocky Mountain (PADD 4) Conventional Gasoline Blending Components Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,CBOBs,PADD4,aPSM_Inventories.csv,1
+PET.MO5SB_R50_1.M,"West Coast (PADD 5) Conventional Gasoline Blending Components Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,CBOBs,PADD5,aPSM_Inventories.csv,1
+PET.MG4SB_R10_1.M,"East Coast (PADD 1) Conventional Motor Gasoline Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,CFGsout,PADD1,aPSM_Inventories.csv,1
+PET.MG4SB_R20_1.M,"Midwest (PADD 2) Conventional Motor Gasoline Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,CFGsout,PADD2,aPSM_Inventories.csv,1
+PET.MG4SB_R30_1.M,"Gulf Coast (PADD 3) Conventional Motor Gasoline Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,CFGsout,PADD3,aPSM_Inventories.csv,1
+PET.MG4SB_R40_1.M,"Rocky Mountain (PADD 4) Conventional Motor Gasoline Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,CFGsout,PADD4,aPSM_Inventories.csv,1
+PET.MG4SB_R50_1.M,"West Coast (PADD 5) Conventional Motor Gasoline Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,CFGsout,PADD5,aPSM_Inventories.csv,1
+PET.MD1SB_R10_1.M,"East Coast (PADD 1) Distillate Fuel Oil, Greater than 15 to 500 ppm Sulfur Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,DSLout,PADD1,aPSM_Inventories.csv,1
+PET.MD1SB_R20_1.M,"Midwest (PADD 2) Distillate Fuel Oil, Greater than 15 to 500 ppm Sulfur Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,DSLout,PADD2,aPSM_Inventories.csv,1
+PET.MD1SB_R30_1.M,"Gulf Coast (PADD 3) Distillate Fuel Oil, Greater than 15 to 500 ppm Sulfur Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,DSLout,PADD3,aPSM_Inventories.csv,1
+PET.MD1SB_R40_1.M,"Rocky Mountain (PADD 4) Distillate Fuel Oil, Greater than 15 to 500 ppm Sulfur Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,DSLout,PADD4,aPSM_Inventories.csv,1
+PET.MD1SB_R50_1.M,"West Coast (PADD 5) Distillate Fuel Oil, Greater than 15 to 500 ppm Sulfur Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,DSLout,PADD5,aPSM_Inventories.csv,1
+PET.MD0SB_R10_1.M,"East Coast (PADD 1) Distillate Fuel Oil, 0 to 15 ppm Sulfur Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,DSUout,PADD1,aPSM_Inventories.csv,1
+PET.MD0SB_R20_1.M,"Midwest (PADD 2) Distillate Fuel Oil, 0 to 15 ppm Sulfur Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,DSUout,PADD2,aPSM_Inventories.csv,1
+PET.MD0SB_R30_1.M,"Gulf Coast (PADD 3) Distillate Fuel Oil, 0 to 15 ppm Sulfur Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,DSUout,PADD3,aPSM_Inventories.csv,1
+PET.MD0SB_R40_1.M,"Rocky Mountain (PADD 4) Distillate Fuel Oil, 0 to 15 ppm Sulfur Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,DSUout,PADD4,aPSM_Inventories.csv,1
+PET.MH1SB_R10_1.M,"East Coast (PADD 1) Heavy Gas Oils Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,GO3,PADD1,aPSM_Inventories.csv,1
+PET.MH1SB_R20_1.M,"Midwest (PADD 2) Heavy Gas Oils Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,GO3,PADD2,aPSM_Inventories.csv,1
+PET.MH1SB_R30_1.M,"Gulf Coast (PADD 3) Heavy Gas Oils Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,GO3,PADD3,aPSM_Inventories.csv,1
+PET.MH1SB_R50_1.M,"West Coast (PADD 5) Heavy Gas Oils Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,GO3,PADD5,aPSM_Inventories.csv,1
+PET.MBISBP11.M,"East Coast (PADD 1) Isobutane-Isobutylene Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,IC4,PADD1,aPSM_Inventories.csv,1
+PET.MBISBP21.M,"Midwest (PADD 2) Isobutane-Isobutylene Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,IC4,PADD2,aPSM_Inventories.csv,1
+PET.MBISBP31.M,"Gulf Coast (PADD 3) Isobutane-Isobutylene Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,IC4,PADD3,aPSM_Inventories.csv,1
+PET.MBISB_R40_1.M,"Rocky Mountain (PADD 4) Isobutane-Isobutylene Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,IC4,PADD4,aPSM_Inventories.csv,1
+PET.MBISBP51.M,"West Coast (PADD 5) Isobutane-Isobutylene Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,IC4,PADD5,aPSM_Inventories.csv,1
+PET.MKJSBP11.M,"East Coast (PADD 1) Kerosene-Type Jet Fuel Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,JTAout,PADD1,aPSM_Inventories.csv,1
+PET.MKJSBP21.M,"Midwest (PADD 2) Kerosene-Type Jet Fuel Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,JTAout,PADD2,aPSM_Inventories.csv,1
+PET.MKJSBP31.M,"Gulf Coast (PADD 3) Kerosene-Type Jet Fuel Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,JTAout,PADD3,aPSM_Inventories.csv,1
+PET.MKJSBP41.M,"Rocky Mountain (PADD 4) Kerosene-Type Jet Fuel Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,JTAout,PADD4,aPSM_Inventories.csv,1
+PET.MKJSBP51.M,"West Coast (PADD 5) Kerosene-Type Jet Fuel Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,JTAout,PADD5,aPSM_Inventories.csv,1
+PET.MKOSB_R10_1.M,"East Coast (PADD 1) Kerosene and Light Oils Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,KR3,PADD1,aPSM_Inventories.csv,1
+PET.MKOSB_R20_1.M,"Midwest (PADD 2) Kerosene and Light Oils Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,KR3,PADD2,aPSM_Inventories.csv,1
+PET.MKOSB_R30_1.M,"Gulf Coast (PADD 3) Kerosene and Light Oils Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,KR3,PADD3,aPSM_Inventories.csv,1
+PET.MKOSB_R50_1.M,"West Coast (PADD 5) Kerosene and Light Oils Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,KR7,PADD5,aPSM_Inventories.csv,1
+PET.MPRSBP11.M,"East Coast (PADD 1) Propane and Propylene Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,LPGout,PADD1,aPSM_Inventories.csv,1
+PET.MPRSBP21.M,"Midwest (PADD 2) Propane and Propylene Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,LPGout,PADD2,aPSM_Inventories.csv,1
+PET.MPRSBP31.M,"Gulf Coast (PADD 3) Propane and Propylene Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,LPGout,PADD3,aPSM_Inventories.csv,1
+PET.MPRSBP41.M,"Rocky Mountain (PADD 4) Propane and Propylene Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,LPGout,PADD4,aPSM_Inventories.csv,1
+PET.MPRSBP51.M,"West Coast (PADD 5) Propane and Propylene Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,LPGout,PADD5,aPSM_Inventories.csv,1
+PET.MLUSBP11.M,"East Coast (PADD 1) Lubricants Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,LUBout,PADD1,aPSM_Inventories.csv,1
+PET.MLUSBP21.M,"Midwest (PADD 2) Lubricants Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,LUBout,PADD2,aPSM_Inventories.csv,1
+PET.MLUSBP31.M,"Gulf Coast (PADD 3) Lubricants Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,LUBout,PADD3,aPSM_Inventories.csv,1
+PET.MLUSBP51.M,"West Coast (PADD 5) Lubricants Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,LUBout,PADD5,aPSM_Inventories.csv,1
+PET.M_EPOUN_SKB_R40_MBBL.M,"Rocky Mountain (PADD 4) Naphthas and Lighter Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,MN3,PADD4,aPSM_Inventories.csv,1
+PET.MNLSB_R10_1.M,"East Coast (PADD 1) Naphthas and Lighter Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,MN3,PADD1,aPSM_Inventories.csv,1
+PET.MNLSB_R20_1.M,"Midwest (PADD 2) Naphthas and Lighter Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,MN3,PADD2,aPSM_Inventories.csv,1
+PET.MNLSB_R30_1.M,"Gulf Coast (PADD 3) Naphthas and Lighter Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,MN3,PADD3,aPSM_Inventories.csv,1
+PET.MNLSB_R50_1.M,"West Coast (PADD 5) Naphthas and Lighter Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,MN3,PADD5,aPSM_Inventories.csv,1
+PET.MDGSBP11.M,"East Coast (PADD 1) Distillate Fuel Oil, Greater Than 500 ppm Sulfur Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,N2Hout,PADD1,aPSM_Inventories.csv,1
+PET.MDGSBP21.M,"Midwest (PADD 2) Distillate Fuel Oil, Greater Than 500 ppm Sulfur Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,N2Hout,PADD2,aPSM_Inventories.csv,1
+PET.MDGSBP31.M,"Gulf Coast (PADD 3) Distillate Fuel Oil, Greater Than 500 ppm Sulfur Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,N2Hout,PADD3,aPSM_Inventories.csv,1
+PET.MDGSBP41.M,"Rocky Mountain (PADD 4) Distillate Fuel Oil, Greater Than 500 ppm Sulfur Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,N2Hout,PADD4,aPSM_Inventories.csv,1
+PET.MDGSBP51.M,"West Coast (PADD 5) Distillate Fuel Oil, Greater Than 500 ppm Sulfur Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,N2Hout,PADD5,aPSM_Inventories.csv,1
+PET.MRESBP11.M,"East Coast (PADD 1) Residual Fuel Oil Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,N6Iout,PADD1,aPSM_Inventories.csv,1
+PET.MRESBP21.M,"Midwest (PADD 2) Residual Fuel Oil Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,N6Iout,PADD2,aPSM_Inventories.csv,1
+PET.MRESBP31.M,"Gulf Coast (PADD 3) Residual Fuel Oil Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,N6Iout,PADD3,aPSM_Inventories.csv,1
+PET.MRESBP41.M,"Rocky Mountain (PADD 4) Residual Fuel Oil Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,N6Iout,PADD4,aPSM_Inventories.csv,1
+PET.MRESBP51.M,"West Coast (PADD 5) Residual Fuel Oil Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,N6Iout,PADD5,aPSM_Inventories.csv,1
+PET.MPPSBP11.M,"East Coast (PADD 1) Pentanes Plus Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,NAT,PADD1,aPSM_Inventories.csv,1
+PET.MPPSBP21.M,"Midwest (PADD 2) Pentanes Plus Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,NAT,PADD2,aPSM_Inventories.csv,1
+PET.MPPSBP31.M,"Gulf Coast (PADD 3) Pentanes Plus Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,NAT,PADD3,aPSM_Inventories.csv,1
+PET.MPPSBP41.M,"Rocky Mountain (PADD 4) Pentanes Plus Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,NAT,PADD4,aPSM_Inventories.csv,1
+PET.MPPSBP51.M,"West Coast (PADD 5) Pentanes Plus Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,NAT,PADD5,aPSM_Inventories.csv,1
+PET.MBNSBP11.M,"East Coast (PADD 1) Normal Butane-Butylene Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,NC4,PADD1,aPSM_Inventories.csv,1
+PET.MBNSBP21.M,"Midwest (PADD 2) Normal Butane-Butylene Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,NC4,PADD2,aPSM_Inventories.csv,1
+PET.MBNSBP31.M,"Gulf Coast (PADD 3) Normal Butane-Butylene Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,NC4,PADD3,aPSM_Inventories.csv,1
+PET.MBNSBP41.M,"Rocky Mountain (PADD 4) Normal Butane-Butylene Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,NC4,PADD4,aPSM_Inventories.csv,1
+PET.MBNSBP51.M,"West Coast (PADD 5) Normal Butane-Butylene Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,NC4,PADD5,aPSM_Inventories.csv,1
+PET.METSBP11.M,"East Coast (PADD 1) Ethane-Ethylene Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,PGS,PADD1,aPSM_Inventories.csv,1
+PET.METSBP21.M,"Midwest (PADD 2) Ethane-Ethylene Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,PGS,PADD2,aPSM_Inventories.csv,1
+PET.METSBP31.M,"Gulf Coast (PADD 3) Ethane-Ethylene Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,PGS,PADD3,aPSM_Inventories.csv,1
+PET.METSBP51.M,"West Coast (PADD 5) Ethane-Ethylene Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,PGS,PADD5,aPSM_Inventories.csv,1
+PET.MO1SB_R10_1.M,"East Coast (PADD 1) Reformulated Gasoline Blending Components Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,RBOBs,PADD1,aPSM_Inventories.csv,1
+PET.MO1SB_R20_1.M,"Midwest (PADD 2) Reformulated Gasoline Blending Components Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,RBOBs,PADD2,aPSM_Inventories.csv,1
+PET.MO1SB_R30_1.M,"Gulf Coast (PADD 3) Reformulated Gasoline Blending Components Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,RBOBs,PADD3,aPSM_Inventories.csv,1
+PET.MO1SB_R40_1.M,"Rocky Mountain (PADD 4) Reformulated Gasoline Blending Components Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,RBOBs,PADD4,aPSM_Inventories.csv,1
+PET.MGRSBP11.M,"East Coast (PADD 1) Reformulated Motor Gasoline Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,RFGsout,PADD1,aPSM_Inventories.csv,1
+PET.MGRSBP21.M,"Midwest (PADD 2) Reformulated Motor Gasoline Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,RFGsout,PADD2,aPSM_Inventories.csv,1
+PET.MGRSBP31.M,"Gulf Coast (PADD 3) Reformulated Motor Gasoline Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,RFGsout,PADD3,aPSM_Inventories.csv,1
+PET.MNSSBP11.M,"East Coast (PADD 1) Special Naphthas Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,SPNout,PADD1,aPSM_Inventories.csv,1
+PET.MNSSBP21.M,"Midwest (PADD 2) Special Naphthas Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,SPNout,PADD2,aPSM_Inventories.csv,1
+PET.MNSSBP31.M,"Gulf Coast (PADD 3) Special Naphthas Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,SPNout,PADD3,aPSM_Inventories.csv,1
+PET.MNSSBP41.M,"Rocky Mountain (PADD 4) Special Naphthas Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,SPNout,PADD4,aPSM_Inventories.csv,1
+PET.MNSSBP51.M,"West Coast (PADD 5) Special Naphthas Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,SPNout,PADD5,aPSM_Inventories.csv,1
+PET.MRUSB_R10_1.M,"East Coast (PADD 1) Residuum Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,VR3,PADD1,aPSM_Inventories.csv,1
+PET.MRUSB_R20_1.M,"Midwest (PADD 2) Residuum Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,VR3,PADD2,aPSM_Inventories.csv,1
+PET.MRUSB_R50_1.M,"West Coast (PADD 5) Residuum Stocks at Bulk Terminals, Monthly",Inventory,BulkTerminal,VR7,PADD5,aPSM_Inventories.csv,1
+PET.MGASPP11.M,"East Coast (PADD 1) Aviation Gasoline Stocks in Pipelines, Monthly",Inventory,Pipelines,AVGout,PADD1,aPSM_Inventories.csv,1
+PET.MGASPP21.M,"Midwest (PADD 2) Aviation Gasoline Stocks in Pipelines, Monthly",Inventory,Pipelines,AVGout,PADD2,aPSM_Inventories.csv,1
+PET.MGASPP31.M,"Gulf Coast (PADD 3) Aviation Gasoline Stocks in Pipelines, Monthly",Inventory,Pipelines,AVGout,PADD3,aPSM_Inventories.csv,1
+PET.MGASPP41.M,"Rocky Mountain (PADD 4) Aviation Gasoline Stocks in Pipelines, Monthly",Inventory,Pipelines,AVGout,PADD4,aPSM_Inventories.csv,1
+PET.MD0SP_R50_1.M,"West Coast (PADD 5) Distillate Fuel Oil, 0 to 15 ppm Sulfur Stocks in Pipelines, Monthly",Inventory,Pipelines,CarbDSUout,PADD5,aPSM_Inventories.csv,1
+PET.MO1SP_R50_1.M,"West Coast (PADD 5) Reformulated Gasoline Blending Components Stocks in Pipelines, Monthly",Inventory,Pipelines,CaRBOBs,PADD5,aPSM_Inventories.csv,1
+PET.MGRSPP51.M,"West Coast (PADD 5) Reformulated Motor Gasoline Stocks in Pipelines, Monthly",Inventory,Pipelines,CaRBOBsout,PADD5,aPSM_Inventories.csv,1
+PET.MO5SP_R10_1.M,"East Coast (PADD 1) Conventional Gasoline Blending Components Stocks in Pipelines, Monthly",Inventory,Pipelines,CBOBs,PADD1,aPSM_Inventories.csv,1
+PET.MO5SP_R20_1.M,"Midwest (PADD 2) Conventional Gasoline Blending Components Stocks in Pipelines, Monthly",Inventory,Pipelines,CBOBs,PADD2,aPSM_Inventories.csv,1
+PET.MO5SP_R30_1.M,"Gulf Coast (PADD 3) Conventional Gasoline Blending Components Stocks in Pipelines, Monthly",Inventory,Pipelines,CBOBs,PADD3,aPSM_Inventories.csv,1
+PET.MO5SP_R40_1.M,"Rocky Mountain (PADD 4) Conventional Gasoline Blending Components Stocks in Pipelines, Monthly",Inventory,Pipelines,CBOBs,PADD4,aPSM_Inventories.csv,1
+PET.MO5SP_R50_1.M,"West Coast (PADD 5) Conventional Gasoline Blending Components Stocks in Pipelines, Monthly",Inventory,Pipelines,CBOBs,PADD5,aPSM_Inventories.csv,1
+PET.MG4SP_R10_1.M,"East Coast (PADD 1) Conventional Motor Gasoline Stocks in Pipelines, Monthly",Inventory,Pipelines,CFGsout,PADD1,aPSM_Inventories.csv,1
+PET.MG4SP_R20_1.M,"Midwest (PADD 2) Conventional Motor Gasoline Stocks in Pipelines, Monthly",Inventory,Pipelines,CFGsout,PADD2,aPSM_Inventories.csv,1
+PET.MG4SP_R30_1.M,"Gulf Coast (PADD 3) Conventional Motor Gasoline Stocks in Pipelines, Monthly",Inventory,Pipelines,CFGsout,PADD3,aPSM_Inventories.csv,1
+PET.MG4SP_R40_1.M,"Rocky Mountain (PADD 4) Conventional Motor Gasoline Stocks in Pipelines, Monthly",Inventory,Pipelines,CFGsout,PADD4,aPSM_Inventories.csv,1
+PET.MG4SP_R50_1.M,"West Coast (PADD 5) Conventional Motor Gasoline Stocks in Pipelines, Monthly",Inventory,Pipelines,CFGsout,PADD5,aPSM_Inventories.csv,1
+PET.MD1SP_R10_1.M,"East Coast (PADD 1) Distillate Fuel Oil, Greater than 15 to 500 ppm Sulfur Stocks in Pipelines, Monthly",Inventory,Pipelines,DSLout,PADD1,aPSM_Inventories.csv,1
+PET.MD1SP_R20_1.M,"Midwest (PADD 2) Distillate Fuel Oil, Greater than 15 to 500 ppm Sulfur Stocks in Pipelines, Monthly",Inventory,Pipelines,DSLout,PADD2,aPSM_Inventories.csv,1
+PET.MD1SP_R30_1.M,"Gulf Coast (PADD 3) Distillate Fuel Oil, Greater than 15 to 500 ppm Sulfur Stocks in Pipelines, Monthly",Inventory,Pipelines,DSLout,PADD3,aPSM_Inventories.csv,1
+PET.MD1SP_R40_1.M,"Rocky Mountain (PADD 4) Distillate Fuel Oil, Greater than 15 to 500 ppm Sulfur Stocks in Pipelines, Monthly",Inventory,Pipelines,DSLout,PADD4,aPSM_Inventories.csv,1
+PET.MD1SP_R50_1.M,"West Coast (PADD 5) Distillate Fuel Oil, Greater than 15 to 500 ppm Sulfur Stocks in Pipelines, Monthly",Inventory,Pipelines,DSLout,PADD5,aPSM_Inventories.csv,1
+PET.MD0SP_R10_1.M,"East Coast (PADD 1) Distillate Fuel Oil, 0 to 15 ppm Sulfur Stocks in Pipelines, Monthly",Inventory,Pipelines,DSUout,PADD1,aPSM_Inventories.csv,1
+PET.MD0SP_R20_1.M,"Midwest (PADD 2) Distillate Fuel Oil, 0 to 15 ppm Sulfur Stocks in Pipelines, Monthly",Inventory,Pipelines,DSUout,PADD2,aPSM_Inventories.csv,1
+PET.MD0SP_R30_1.M,"Gulf Coast (PADD 3) Distillate Fuel Oil, 0 to 15 ppm Sulfur Stocks in Pipelines, Monthly",Inventory,Pipelines,DSUout,PADD3,aPSM_Inventories.csv,1
+PET.MD0SP_R40_1.M,"Rocky Mountain (PADD 4) Distillate Fuel Oil, 0 to 15 ppm Sulfur Stocks in Pipelines, Monthly",Inventory,Pipelines,DSUout,PADD4,aPSM_Inventories.csv,1
+PET.MBISPP11.M,"East Coast (PADD 1) Isobutane-Isobutylene Stocks in Pipelines, Monthly",Inventory,Pipelines,IC4,PADD1,aPSM_Inventories.csv,1
+PET.MBISPP21.M,"Midwest (PADD 2) Isobutane-Isobutylene Stocks in Pipelines, Monthly",Inventory,Pipelines,IC4,PADD2,aPSM_Inventories.csv,1
+PET.MBISPP31.M,"Gulf Coast (PADD 3) Isobutane-Isobutylene Stocks in Pipelines, Monthly",Inventory,Pipelines,IC4,PADD3,aPSM_Inventories.csv,1
+PET.MBISPP41.M,"Rocky Mountain (PADD 4) Isobutane-Isobutylene Stocks in Pipelines, Monthly",Inventory,Pipelines,IC4,PADD4,aPSM_Inventories.csv,1
+PET.MKJSPP11.M,"East Coast (PADD 1) Kerosene-Type Jet Fuel Stocks in Pipelines, Monthly",Inventory,Pipelines,JTAout,PADD1,aPSM_Inventories.csv,1
+PET.MKJSPP21.M,"Midwest (PADD 2) Kerosene-Type Jet Fuel Stocks in Pipelines, Monthly",Inventory,Pipelines,JTAout,PADD2,aPSM_Inventories.csv,1
+PET.MKJSPP31.M,"Gulf Coast (PADD 3) Kerosene-Type Jet Fuel Stocks in Pipelines, Monthly",Inventory,Pipelines,JTAout,PADD3,aPSM_Inventories.csv,1
+PET.MKJSPP41.M,"Rocky Mountain (PADD 4) Kerosene-Type Jet Fuel Stocks in Pipelines, Monthly",Inventory,Pipelines,JTAout,PADD4,aPSM_Inventories.csv,1
+PET.MKJSPP51.M,"West Coast (PADD 5) Kerosene-Type Jet Fuel Stocks in Pipelines, Monthly",Inventory,Pipelines,JTAout,PADD5,aPSM_Inventories.csv,1
+PET.MPRSPP11.M,"East Coast (PADD 1) Propane and Propylene Stocks in Pipelines, Monthly",Inventory,Pipelines,LPGout,PADD1,aPSM_Inventories.csv,1
+PET.MPRSPP21.M,"Midwest (PADD 2) Propane and Propylene Stocks in Pipelines, Monthly",Inventory,Pipelines,LPGout,PADD2,aPSM_Inventories.csv,1
+PET.MPRSPP31.M,"Gulf Coast (PADD 3) Propane and Propylene Stocks in Pipelines, Monthly",Inventory,Pipelines,LPGout,PADD3,aPSM_Inventories.csv,1
+PET.MPRSPP41.M,"Rocky Mountain (PADD 4) Propane and Propylene Stocks in Pipelines, Monthly",Inventory,Pipelines,LPGout,PADD4,aPSM_Inventories.csv,1
+PET.MDGSPP11.M,"East Coast (PADD 1) Distillate Fuel Oil, Greater Than 500 ppm Sulfur Stocks in Pipelines, Monthly",Inventory,Pipelines,N2Hout,PADD1,aPSM_Inventories.csv,1
+PET.MDGSPP21.M,"Midwest (PADD 2) Distillate Fuel Oil, Greater Than 500 ppm Sulfur Stocks in Pipelines, Monthly",Inventory,Pipelines,N2Hout,PADD2,aPSM_Inventories.csv,1
+PET.MDGSPP31.M,"Gulf Coast (PADD 3) Distillate Fuel Oil, Greater Than 500 ppm Sulfur Stocks in Pipelines, Monthly",Inventory,Pipelines,N2Hout,PADD3,aPSM_Inventories.csv,1
+PET.MDGSPP41.M,"Rocky Mountain (PADD 4) Distillate Fuel Oil, Greater Than 500 ppm Sulfur Stocks in Pipelines, Monthly",Inventory,Pipelines,N2Hout,PADD4,aPSM_Inventories.csv,1
+PET.MDGSPP51.M,"West Coast (PADD 5) Distillate Fuel Oil, Greater Than 500 ppm Sulfur Stocks in Pipelines, Monthly",Inventory,Pipelines,N2Hout,PADD5,aPSM_Inventories.csv,1
+PET.MRESPP11.M,"East Coast (PADD 1) Residual Fuel Oil Stocks in Pipelines, Monthly",Inventory,Pipelines,N6Iout,PADD1,aPSM_Inventories.csv,1
+PET.MRESPP21.M,"Midwest (PADD 2) Residual Fuel Oil Stocks in Pipelines, Monthly",Inventory,Pipelines,N6Iout,PADD2,aPSM_Inventories.csv,1
+PET.MRESP_R30_1.M,"Gulf Coast (PADD 3) Residual Fuel Oil Stocks in Pipelines, Monthly",Inventory,Pipelines,N6Iout,PADD3,aPSM_Inventories.csv,1
+PET.MRESPP51.M,"West Coast (PADD 5) Residual Fuel Oil Stocks in Pipelines, Monthly",Inventory,Pipelines,N6Iout,PADD5,aPSM_Inventories.csv,1
+PET.MPPSP_R10_1.M,"East Coast (PADD 1) Pentanes Plus Stocks in Pipelines, Monthly",Inventory,Pipelines,NAT,PADD1,aPSM_Inventories.csv,1
+PET.MPPSPP21.M,"Midwest (PADD 2) Pentanes Plus Stocks in Pipelines, Monthly",Inventory,Pipelines,NAT,PADD2,aPSM_Inventories.csv,1
+PET.MPPSPP31.M,"Gulf Coast (PADD 3) Pentanes Plus Stocks in Pipelines, Monthly",Inventory,Pipelines,NAT,PADD3,aPSM_Inventories.csv,1
+PET.MPPSPP41.M,"Rocky Mountain (PADD 4) Pentanes Plus Stocks in Pipelines, Monthly",Inventory,Pipelines,NAT,PADD4,aPSM_Inventories.csv,1
+PET.MBNSPP11.M,"East Coast (PADD 1) Normal Butane-Butylene Stocks in Pipelines, Monthly",Inventory,Pipelines,NC4,PADD1,aPSM_Inventories.csv,1
+PET.MBNSPP21.M,"Midwest (PADD 2) Normal Butane-Butylene Stocks in Pipelines, Monthly",Inventory,Pipelines,NC4,PADD2,aPSM_Inventories.csv,1
+PET.MBNSPP31.M,"Gulf Coast (PADD 3) Normal Butane-Butylene Stocks in Pipelines, Monthly",Inventory,Pipelines,NC4,PADD3,aPSM_Inventories.csv,1
+PET.MBNSPP41.M,"Rocky Mountain (PADD 4) Normal Butane-Butylene Stocks in Pipelines, Monthly",Inventory,Pipelines,NC4,PADD4,aPSM_Inventories.csv,1
+PET.METSP_R10_1.M,"East Coast (PADD 1) Ethane-Ethylene Stocks in Pipelines, Monthly",Inventory,Pipelines,PGS,PADD1,aPSM_Inventories.csv,1
+PET.METSPP21.M,"Midwest (PADD 2) Ethane-Ethylene Stocks in Pipelines, Monthly",Inventory,Pipelines,PGS,PADD2,aPSM_Inventories.csv,1
+PET.METSPP31.M,"Gulf Coast (PADD 3) Ethane-Ethylene Stocks in Pipelines, Monthly",Inventory,Pipelines,PGS,PADD3,aPSM_Inventories.csv,1
+PET.METSPP41.M,"Rocky Mountain (PADD 4) Ethane-Ethylene Stocks in Pipelines, Monthly",Inventory,Pipelines,PGS,PADD4,aPSM_Inventories.csv,1
+PET.MO1SP_R10_1.M,"East Coast (PADD 1) Reformulated Gasoline Blending Components Stocks in Pipelines, Monthly",Inventory,Pipelines,RBOBs,PADD1,aPSM_Inventories.csv,1
+PET.MO1SP_R20_1.M,"Midwest (PADD 2) Reformulated Gasoline Blending Components Stocks in Pipelines, Monthly",Inventory,Pipelines,RBOBs,PADD2,aPSM_Inventories.csv,1
+PET.MO1SP_R30_1.M,"Gulf Coast (PADD 3) Reformulated Gasoline Blending Components Stocks in Pipelines, Monthly",Inventory,Pipelines,RBOBs,PADD3,aPSM_Inventories.csv,1
+PET.MGRSPP11.M,"East Coast (PADD 1) Reformulated Motor Gasoline Stocks in Pipelines, Monthly",Inventory,Pipelines,RFGsout,PADD1,aPSM_Inventories.csv,1
+PET.MGRSPP21.M,"Midwest (PADD 2) Reformulated Motor Gasoline Stocks in Pipelines, Monthly",Inventory,Pipelines,RFGsout,PADD2,aPSM_Inventories.csv,1
+PET.MGRSPP31.M,"Gulf Coast (PADD 3) Reformulated Motor Gasoline Stocks in Pipelines, Monthly",Inventory,Pipelines,RFGsout,PADD3,aPSM_Inventories.csv,1
+PET.MAPRSP11.M,"East Coast (PADD 1) Asphalt and Road Oil Stocks at Refineries, Monthly",Inventory,Refineries,ASPHout,PADD1,aPSM_Inventories.csv,1
+PET.MAPRSP21.M,"Midwest (PADD 2) Asphalt and Road Oil Stocks at Refineries, Monthly",Inventory,Refineries,ASPHout,PADD2,aPSM_Inventories.csv,1
+PET.MAPRSP31.M,"Gulf Coast (PADD 3) Asphalt and Road Oil Stocks at Refineries, Monthly",Inventory,Refineries,ASPHout,PADD3,aPSM_Inventories.csv,1
+PET.MAPRSP41.M,"Rocky Mountain (PADD 4) Asphalt and Road Oil Stocks at Refineries, Monthly",Inventory,Refineries,ASPHout,PADD4,aPSM_Inventories.csv,1
+PET.MAPRSP51.M,"West Coast (PADD 5) Asphalt and Road Oil Stocks at Refineries, Monthly",Inventory,Refineries,ASPHout,PADD5,aPSM_Inventories.csv,1
+PET.MGARSP11.M,"East Coast (PADD 1) Aviation Gasoline Stocks at Refineries, Monthly",Inventory,Refineries,AVGout,PADD1,aPSM_Inventories.csv,1
+PET.MGARSP21.M,"Midwest (PADD 2) Aviation Gasoline Stocks at Refineries, Monthly",Inventory,Refineries,AVGout,PADD2,aPSM_Inventories.csv,1
+PET.MGARSP31.M,"Gulf Coast (PADD 3) Aviation Gasoline Stocks at Refineries, Monthly",Inventory,Refineries,AVGout,PADD3,aPSM_Inventories.csv,1
+PET.MGARSP41.M,"Rocky Mountain (PADD 4) Aviation Gasoline Stocks at Refineries, Monthly",Inventory,Refineries,AVGout,PADD4,aPSM_Inventories.csv,1
+PET.MGARSP51.M,"West Coast (PADD 5) Aviation Gasoline Stocks at Refineries, Monthly",Inventory,Refineries,AVGout,PADD5,aPSM_Inventories.csv,1
+PET.MD0RS_R50_1.M,"West Coast (PADD 5) Distillate Fuel Oil, 0 to 15 ppm Sulfur Stocks at Refineries, Monthly",Inventory,Refineries,CarbDSUout,PADD5,aPSM_Inventories.csv,1
+PET.MO1RS_R50_1.M,"West Coast (PADD 5) Reformulated Gasoline Blending Components Stocks at Refineries, Monthly",Inventory,Refineries,CaRBOBs,PADD5,aPSM_Inventories.csv,1
+PET.MGRRSP51.M,"West Coast (PADD 5) Reformulated Motor Gasoline Stocks at Refineries, Monthly",Inventory,Refineries,CaRBOBsout,PADD5,aPSM_Inventories.csv,1
+PET.MO5RS_R10_1.M,"East Coast (PADD 1) Conventional Gasoline Blending Components Stocks at Refineries, Monthly",Inventory,Refineries,CBOBs,PADD1,aPSM_Inventories.csv,1
+PET.MO5RS_R20_1.M,"Midwest (PADD 2) Conventional Gasoline Blending Components Stocks at Refineries, Monthly",Inventory,Refineries,CBOBs,PADD2,aPSM_Inventories.csv,1
+PET.MO5RS_R30_1.M,"Gulf Coast (PADD 3) Conventional Gasoline Blending Components Stocks at Refineries, Monthly",Inventory,Refineries,CBOBs,PADD3,aPSM_Inventories.csv,1
+PET.MO5RS_R40_1.M,"Rocky Mountain (PADD 4) Conventional Gasoline Blending Components Stocks at Refineries, Monthly",Inventory,Refineries,CBOBs,PADD4,aPSM_Inventories.csv,1
+PET.MO5RS_R50_1.M,"West Coast (PADD 5) Conventional Gasoline Blending Components Stocks at Refineries, Monthly",Inventory,Refineries,CBOBs,PADD5,aPSM_Inventories.csv,1
+PET.MG4RS_R10_1.M,"East Coast (PADD 1) Conventional Motor Gasoline Stocks at Refineries, Monthly",Inventory,Refineries,CFGsout,PADD1,aPSM_Inventories.csv,1
+PET.MG4RS_R20_1.M,"Midwest (PADD 2) Conventional Motor Gasoline Stocks at Refineries, Monthly",Inventory,Refineries,CFGsout,PADD2,aPSM_Inventories.csv,1
+PET.MG4RS_R30_1.M,"Gulf Coast (PADD 3) Conventional Motor Gasoline Stocks at Refineries, Monthly",Inventory,Refineries,CFGsout,PADD3,aPSM_Inventories.csv,1
+PET.MG4RS_R40_1.M,"Rocky Mountain (PADD 4) Conventional Motor Gasoline Stocks at Refineries, Monthly",Inventory,Refineries,CFGsout,PADD4,aPSM_Inventories.csv,1
+PET.MG4RS_R50_1.M,"West Coast (PADD 5) Conventional Motor Gasoline Stocks at Refineries, Monthly",Inventory,Refineries,CFGsout,PADD5,aPSM_Inventories.csv,1
+PET.MCMRSP11.M,"East Coast (PADD 1) Petroleum Coke Marketable Stocks at Refineries, Monthly",Inventory,Refineries,COKout,PADD1,aPSM_Inventories.csv,1
+PET.MCMRSP21.M,"Midwest (PADD 2) Petroleum Coke Marketable Stocks at Refineries, Monthly",Inventory,Refineries,COKout,PADD2,aPSM_Inventories.csv,1
+PET.MCMRSP31.M,"Gulf Coast (PADD 3) Petroleum Coke Marketable Stocks at Refineries, Monthly",Inventory,Refineries,COKout,PADD3,aPSM_Inventories.csv,1
+PET.MCMRSP41.M,"Rocky Mountain (PADD 4) Petroleum Coke Marketable Stocks at Refineries, Monthly",Inventory,Refineries,COKout,PADD4,aPSM_Inventories.csv,1
+PET.MCMRSP51.M,"West Coast (PADD 5) Petroleum Coke Marketable Stocks at Refineries, Monthly",Inventory,Refineries,COKout,PADD5,aPSM_Inventories.csv,1
+PET.MD1RS_R10_1.M,"East Coast (PADD 1) Distillate Fuel Oil, Greater than 15 to 500 ppm Sulfur Stocks at Refineries, Monthly",Inventory,Refineries,DSLout,PADD1,aPSM_Inventories.csv,1
+PET.MD1RS_R20_1.M,"Midwest (PADD 2) Distillate Fuel Oil, Greater than 15 to 500 ppm Sulfur Stocks at Refineries, Monthly",Inventory,Refineries,DSLout,PADD2,aPSM_Inventories.csv,1
+PET.MD1RS_R30_1.M,"Gulf Coast (PADD 3) Distillate Fuel Oil, Greater than 15 to 500 ppm Sulfur Stocks at Refineries, Monthly",Inventory,Refineries,DSLout,PADD3,aPSM_Inventories.csv,1
+PET.MD1RS_R40_1.M,"Rocky Mountain (PADD 4) Distillate Fuel Oil, Greater than 15 to 500 ppm Sulfur Stocks at Refineries, Monthly",Inventory,Refineries,DSLout,PADD4,aPSM_Inventories.csv,1
+PET.MD1RS_R50_1.M,"West Coast (PADD 5) Distillate Fuel Oil, Greater than 15 to 500 ppm Sulfur Stocks at Refineries, Monthly",Inventory,Refineries,DSLout,PADD5,aPSM_Inventories.csv,1
+PET.MD0RS_R10_1.M,"East Coast (PADD 1) Distillate Fuel Oil, 0 to 15 ppm Sulfur Stocks at Refineries, Monthly",Inventory,Refineries,DSUout,PADD1,aPSM_Inventories.csv,1
+PET.MD0RS_R20_1.M,"Midwest (PADD 2) Distillate Fuel Oil, 0 to 15 ppm Sulfur Stocks at Refineries, Monthly",Inventory,Refineries,DSUout,PADD2,aPSM_Inventories.csv,1
+PET.MD0RS_R30_1.M,"Gulf Coast (PADD 3) Distillate Fuel Oil, 0 to 15 ppm Sulfur Stocks at Refineries, Monthly",Inventory,Refineries,DSUout,PADD3,aPSM_Inventories.csv,1
+PET.MD0RS_R40_1.M,"Rocky Mountain (PADD 4) Distillate Fuel Oil, 0 to 15 ppm Sulfur Stocks at Refineries, Monthly",Inventory,Refineries,DSUout,PADD4,aPSM_Inventories.csv,1
+PET.MH1RSP11.M,"East Coast (PADD 1) Heavy Gas Oils Stocks at Refineries, Monthly",Inventory,Refineries,GO3,PADD1,aPSM_Inventories.csv,1
+PET.MH1RSP21.M,"Midwest (PADD 2) Heavy Gas Oils Stocks at Refineries, Monthly",Inventory,Refineries,GO3,PADD2,aPSM_Inventories.csv,1
+PET.MH1RSP31.M,"Gulf Coast (PADD 3) Heavy Gas Oils Stocks at Refineries, Monthly",Inventory,Refineries,GO3,PADD3,aPSM_Inventories.csv,1
+PET.MH1RSP41.M,"Rocky Mountain (PADD 4) Heavy Gas Oils Stocks at Refineries, Monthly",Inventory,Refineries,GO3,PADD4,aPSM_Inventories.csv,1
+PET.MH1RSP51.M,"West Coast (PADD 5) Heavy Gas Oils Stocks at Refineries, Monthly",Inventory,Refineries,GO7,PADD5,aPSM_Inventories.csv,1
+PET.MOTRSP11.M,"East Coast (PADD 1) Other Oils for Petrochemical Feedstock Use Stocks at Refineries, Monthly",Inventory,Refineries,GOPout,PADD1,aPSM_Inventories.csv,1
+PET.MOTRSP21.M,"Midwest (PADD 2) Other Oils for Petrochemical Feedstock Use Stocks at Refineries, Monthly",Inventory,Refineries,GOPout,PADD2,aPSM_Inventories.csv,1
+PET.MOTRSP31.M,"Gulf Coast (PADD 3) Other Oils for Petrochemical Feedstock Use Stocks at Refineries, Monthly",Inventory,Refineries,GOPout,PADD3,aPSM_Inventories.csv,1
+PET.MOTRSP41.M,"Rocky Mountain (PADD 4) Other Oils for Petrochemical Feedstock Use Stocks at Refineries, Monthly",Inventory,Refineries,GOPout,PADD4,aPSM_Inventories.csv,1
+PET.MOTRSP51.M,"West Coast (PADD 5) Other Oils for Petrochemical Feedstock Use Stocks at Refineries, Monthly",Inventory,Refineries,GOPout,PADD5,aPSM_Inventories.csv,1
+PET.MBIRSP11.M,"East Coast (PADD 1) Isobutane-Isobutylene Stocks at Refineries, Monthly",Inventory,Refineries,IC4,PADD1,aPSM_Inventories.csv,1
+PET.MBIRSP21.M,"Midwest (PADD 2) Isobutane-Isobutylene Stocks at Refineries, Monthly",Inventory,Refineries,IC4,PADD2,aPSM_Inventories.csv,1
+PET.MBIRSP31.M,"Gulf Coast (PADD 3) Isobutane-Isobutylene Stocks at Refineries, Monthly",Inventory,Refineries,IC4,PADD3,aPSM_Inventories.csv,1
+PET.MBIRSP41.M,"Rocky Mountain (PADD 4) Isobutane-Isobutylene Stocks at Refineries, Monthly",Inventory,Refineries,IC4,PADD4,aPSM_Inventories.csv,1
+PET.MBIRSP51.M,"West Coast (PADD 5) Isobutane-Isobutylene Stocks at Refineries, Monthly",Inventory,Refineries,IC4,PADD5,aPSM_Inventories.csv,1
+PET.MKJRSP11.M,"East Coast (PADD 1) Kerosene-Type Jet Fuel Stocks at Refineries, Monthly",Inventory,Refineries,JTAout,PADD1,aPSM_Inventories.csv,1
+PET.MKJRSP21.M,"Midwest (PADD 2) Kerosene-Type Jet Fuel Stocks at Refineries, Monthly",Inventory,Refineries,JTAout,PADD2,aPSM_Inventories.csv,1
+PET.MKJRSP31.M,"Gulf Coast (PADD 3) Kerosene-Type Jet Fuel Stocks at Refineries, Monthly",Inventory,Refineries,JTAout,PADD3,aPSM_Inventories.csv,1
+PET.MKJRSP41.M,"Rocky Mountain (PADD 4) Kerosene-Type Jet Fuel Stocks at Refineries, Monthly",Inventory,Refineries,JTAout,PADD4,aPSM_Inventories.csv,1
+PET.MKJRSP51.M,"West Coast (PADD 5) Kerosene-Type Jet Fuel Stocks at Refineries, Monthly",Inventory,Refineries,JTAout,PADD5,aPSM_Inventories.csv,1
+PET.MKORSP11.M,"East Coast (PADD 1) Kerosene and Light Oils Stocks at Refineries, Monthly",Inventory,Refineries,KR3,PADD1,aPSM_Inventories.csv,1
+PET.MKORSP21.M,"Midwest (PADD 2) Kerosene and Light Oils Stocks at Refineries, Monthly",Inventory,Refineries,KR3,PADD2,aPSM_Inventories.csv,1
+PET.MKORSP31.M,"Gulf Coast (PADD 3) Kerosene and Light Oils Stocks at Refineries, Monthly",Inventory,Refineries,KR3,PADD3,aPSM_Inventories.csv,1
+PET.MKORSP41.M,"Rocky Mountain (PADD 4) Kerosene and Light Oils Stocks at Refineries, Monthly",Inventory,Refineries,KR3,PADD4,aPSM_Inventories.csv,1
+PET.MKORSP51.M,"West Coast (PADD 5) Kerosene and Light Oils Stocks at Refineries, Monthly",Inventory,Refineries,KR7,PADD5,aPSM_Inventories.csv,1
+PET.MPRRSP11.M,"East Coast (PADD 1) Propane and Propylene Stocks at Refineries, Monthly",Inventory,Refineries,LPGout,PADD1,aPSM_Inventories.csv,1
+PET.MPRRSP21.M,"Midwest (PADD 2) Propane and Propylene Stocks at Refineries, Monthly",Inventory,Refineries,LPGout,PADD2,aPSM_Inventories.csv,1
+PET.MPRRSP31.M,"Gulf Coast (PADD 3) Propane and Propylene Stocks at Refineries, Monthly",Inventory,Refineries,LPGout,PADD3,aPSM_Inventories.csv,1
+PET.MPRRSP41.M,"Rocky Mountain (PADD 4) Propane and Propylene Stocks at Refineries, Monthly",Inventory,Refineries,LPGout,PADD4,aPSM_Inventories.csv,1
+PET.MPRRSP51.M,"West Coast (PADD 5) Propane and Propylene Stocks at Refineries, Monthly",Inventory,Refineries,LPGout,PADD5,aPSM_Inventories.csv,1
+PET.MLURSP11.M,"East Coast (PADD 1) Lubricants Stocks at Refineries, Monthly",Inventory,Refineries,LUBout,PADD1,aPSM_Inventories.csv,1
+PET.MLURSP21.M,"Midwest (PADD 2) Lubricants Stocks at Refineries, Monthly",Inventory,Refineries,LUBout,PADD2,aPSM_Inventories.csv,1
+PET.MLURSP31.M,"Gulf Coast (PADD 3) Lubricants Stocks at Refineries, Monthly",Inventory,Refineries,LUBout,PADD3,aPSM_Inventories.csv,1
+PET.MLURS_R40_1.M,"Rocky Mountain (PADD 4) Lubricants Stocks at Refineries, Monthly",Inventory,Refineries,LUBout,PADD4,aPSM_Inventories.csv,1
+PET.MLURSP51.M,"West Coast (PADD 5) Lubricants Stocks at Refineries, Monthly",Inventory,Refineries,LUBout,PADD5,aPSM_Inventories.csv,1
+PET.MNLRSP11.M,"East Coast (PADD 1) Naphthas and Lighter Stocks at Refineries, Monthly",Inventory,Refineries,MN3,PADD1,aPSM_Inventories.csv,1
+PET.MNLRSP21.M,"Midwest (PADD 2) Naphthas and Lighter Stocks at Refineries, Monthly",Inventory,Refineries,MN3,PADD2,aPSM_Inventories.csv,1
+PET.MNLRSP31.M,"Gulf Coast (PADD 3) Naphthas and Lighter Stocks at Refineries, Monthly",Inventory,Refineries,MN3,PADD3,aPSM_Inventories.csv,1
+PET.MNLRSP41.M,"Rocky Mountain (PADD 4) Naphthas and Lighter Stocks at Refineries, Monthly",Inventory,Refineries,MN3,PADD4,aPSM_Inventories.csv,1
+PET.MNLRSP51.M,"West Coast (PADD 5) Naphthas and Lighter Stocks at Refineries, Monthly",Inventory,Refineries,MN3,PADD5,aPSM_Inventories.csv,1
+PET.MDGRSP11.M,"East Coast (PADD 1) Distillate Fuel Oil, Greater Than 500 ppm Sulfur Stocks at Refineries, Monthly",Inventory,Refineries,N2Hout,PADD1,aPSM_Inventories.csv,1
+PET.MDGRSP21.M,"Midwest (PADD 2) Distillate Fuel Oil, Greater Than 500 ppm Sulfur Stocks at Refineries, Monthly",Inventory,Refineries,N2Hout,PADD2,aPSM_Inventories.csv,1
+PET.MDGRSP31.M,"Gulf Coast (PADD 3) Distillate Fuel Oil, Greater Than 500 ppm Sulfur Stocks at Refineries, Monthly",Inventory,Refineries,N2Hout,PADD3,aPSM_Inventories.csv,1
+PET.MDGRSP41.M,"Rocky Mountain (PADD 4) Distillate Fuel Oil, Greater Than 500 ppm Sulfur Stocks at Refineries, Monthly",Inventory,Refineries,N2Hout,PADD4,aPSM_Inventories.csv,1
+PET.MDGRSP51.M,"West Coast (PADD 5) Distillate Fuel Oil, Greater Than 500 ppm Sulfur Stocks at Refineries, Monthly",Inventory,Refineries,N2Hout,PADD5,aPSM_Inventories.csv,1
+PET.MRERSP11.M,"East Coast (PADD 1) Residual Fuel Oil Stocks at Refineries, Monthly",Inventory,Refineries,N6Iout,PADD1,aPSM_Inventories.csv,1
+PET.MRERSP21.M,"Midwest (PADD 2) Residual Fuel Oil Stocks at Refineries, Monthly",Inventory,Refineries,N6Iout,PADD2,aPSM_Inventories.csv,1
+PET.MRERSP31.M,"Gulf Coast (PADD 3) Residual Fuel Oil Stocks at Refineries, Monthly",Inventory,Refineries,N6Iout,PADD3,aPSM_Inventories.csv,1
+PET.MRERSP41.M,"Rocky Mountain (PADD 4) Residual Fuel Oil Stocks at Refineries, Monthly",Inventory,Refineries,N6Iout,PADD4,aPSM_Inventories.csv,1
+PET.MRERSP51.M,"West Coast (PADD 5) Residual Fuel Oil Stocks at Refineries, Monthly",Inventory,Refineries,N6Iout,PADD5,aPSM_Inventories.csv,1
+PET.MNFRSP11.M,"East Coast (PADD 1) Naphtha for Petrochemical Feedstock Use Stocks at Refineries, Monthly",Inventory,Refineries,NAPout,PADD1,aPSM_Inventories.csv,1
+PET.MNFRSP21.M,"Midwest (PADD 2) Naphtha for Petrochemical Feedstock Use Stocks at Refineries, Monthly",Inventory,Refineries,NAPout,PADD2,aPSM_Inventories.csv,1
+PET.MNFRSP31.M,"Gulf Coast (PADD 3) Naphtha for Petrochemical Feedstock Use Stocks at Refineries, Monthly",Inventory,Refineries,NAPout,PADD3,aPSM_Inventories.csv,1
+PET.MPNRS_R40_1.M,"Rocky Mountain (PADD 4) Naphtha for Petrochemical Feedstock Use Stocks at Refineries, Monthly",Inventory,Refineries,NAPout,PADD4,aPSM_Inventories.csv,1
+PET.MNFRSP51.M,"West Coast (PADD 5) Naphtha for Petrochemical Feedstock Use Stocks at Refineries, Monthly",Inventory,Refineries,NAPout,PADD5,aPSM_Inventories.csv,1
+PET.MPPRSP11.M,"East Coast (PADD 1) Pentanes Plus Stocks at Refineries, Monthly",Inventory,Refineries,NAT,PADD1,aPSM_Inventories.csv,1
+PET.MPPRSP21.M,"Midwest (PADD 2) Pentanes Plus Stocks at Refineries, Monthly",Inventory,Refineries,NAT,PADD2,aPSM_Inventories.csv,1
+PET.MPPRSP31.M,"Gulf Coast (PADD 3) Pentanes Plus Stocks at Refineries, Monthly",Inventory,Refineries,NAT,PADD3,aPSM_Inventories.csv,1
+PET.MPPRSP41.M,"Rocky Mountain (PADD 4) Pentanes Plus Stocks at Refineries, Monthly",Inventory,Refineries,NAT,PADD4,aPSM_Inventories.csv,1
+PET.MPPRSP51.M,"West Coast (PADD 5) Pentanes Plus Stocks at Refineries, Monthly",Inventory,Refineries,NAT,PADD5,aPSM_Inventories.csv,1
+PET.MBNRSP11.M,"East Coast (PADD 1) Normal Butane-Butylene Stocks at Refineries, Monthly",Inventory,Refineries,NC4,PADD1,aPSM_Inventories.csv,1
+PET.MBNRSP21.M,"Midwest (PADD 2) Normal Butane-Butylene Stocks at Refineries, Monthly",Inventory,Refineries,NC4,PADD2,aPSM_Inventories.csv,1
+PET.MBNRSP31.M,"Gulf Coast (PADD 3) Normal Butane-Butylene Stocks at Refineries, Monthly",Inventory,Refineries,NC4,PADD3,aPSM_Inventories.csv,1
+PET.MBNRSP41.M,"Rocky Mountain (PADD 4) Normal Butane-Butylene Stocks at Refineries, Monthly",Inventory,Refineries,NC4,PADD4,aPSM_Inventories.csv,1
+PET.MBNRSP51.M,"West Coast (PADD 5) Normal Butane-Butylene Stocks at Refineries, Monthly",Inventory,Refineries,NC4,PADD5,aPSM_Inventories.csv,1
+PET.METRS_R10_1.M,"East Coast (PADD 1) Ethane-Ethylene Stocks at Refineries, Monthly",Inventory,Refineries,PGS,PADD1,aPSM_Inventories.csv,1
+PET.METRSP21.M,"Midwest (PADD 2) Ethane-Ethylene Stocks at Refineries, Monthly",Inventory,Refineries,PGS,PADD2,aPSM_Inventories.csv,1
+PET.METRSP31.M,"Gulf Coast (PADD 3) Ethane-Ethylene Stocks at Refineries, Monthly",Inventory,Refineries,PGS,PADD3,aPSM_Inventories.csv,1
+PET.METRSP51.M,"West Coast (PADD 5) Ethane-Ethylene Stocks at Refineries, Monthly",Inventory,Refineries,PGS,PADD5,aPSM_Inventories.csv,1
+PET.MO1RS_R10_1.M,"East Coast (PADD 1) Reformulated Gasoline Blending Components Stocks at Refineries, Monthly",Inventory,Refineries,RBOBs,PADD1,aPSM_Inventories.csv,1
+PET.MO1RS_R20_1.M,"Midwest (PADD 2) Reformulated Gasoline Blending Components Stocks at Refineries, Monthly",Inventory,Refineries,RBOBs,PADD2,aPSM_Inventories.csv,1
+PET.MO1RS_R30_1.M,"Gulf Coast (PADD 3) Reformulated Gasoline Blending Components Stocks at Refineries, Monthly",Inventory,Refineries,RBOBs,PADD3,aPSM_Inventories.csv,1
+PET.MGRRSP11.M,"East Coast (PADD 1) Reformulated Motor Gasoline Stocks at Refineries, Monthly",Inventory,Refineries,RFGsout,PADD1,aPSM_Inventories.csv,1
+PET.MGRRSP21.M,"Midwest (PADD 2) Reformulated Motor Gasoline Stocks at Refineries, Monthly",Inventory,Refineries,RFGsout,PADD2,aPSM_Inventories.csv,1
+PET.MGRRSP31.M,"Gulf Coast (PADD 3) Reformulated Motor Gasoline Stocks at Refineries, Monthly",Inventory,Refineries,RFGsout,PADD3,aPSM_Inventories.csv,1
+PET.MNSRSP11.M,"East Coast (PADD 1) Special Naphthas Stocks at Refineries, Monthly",Inventory,Refineries,SPNout,PADD1,aPSM_Inventories.csv,1
+PET.MNSRSP21.M,"Midwest (PADD 2) Special Naphthas Stocks at Refineries, Monthly",Inventory,Refineries,SPNout,PADD2,aPSM_Inventories.csv,1
+PET.MNSRSP31.M,"Gulf Coast (PADD 3) Special Naphthas Stocks at Refineries, Monthly",Inventory,Refineries,SPNout,PADD3,aPSM_Inventories.csv,1
+PET.MNSRSP41.M,"Rocky Mountain (PADD 4) Special Naphthas Stocks at Refineries, Monthly",Inventory,Refineries,SPNout,PADD4,aPSM_Inventories.csv,1
+PET.MNSRSP51.M,"West Coast (PADD 5) Special Naphthas Stocks at Refineries, Monthly",Inventory,Refineries,SPNout,PADD5,aPSM_Inventories.csv,1
+PET.MRURSP11.M,"East Coast (PADD 1) Residuum Stocks at Refineries, Monthly",Inventory,Refineries,VR3,PADD1,aPSM_Inventories.csv,1
+PET.MRURSP21.M,"Midwest (PADD 2) Residuum Stocks at Refineries, Monthly",Inventory,Refineries,VR3,PADD2,aPSM_Inventories.csv,1
+PET.MRURSP31.M,"Gulf Coast (PADD 3) Residuum Stocks at Refineries, Monthly",Inventory,Refineries,VR3,PADD3,aPSM_Inventories.csv,1
+PET.MRURSP41.M,"Rocky Mountain (PADD 4) Residuum Stocks at Refineries, Monthly",Inventory,Refineries,VR3,PADD4,aPSM_Inventories.csv,1
+PET.MRURSP51.M,"West Coast (PADD 5) Residuum Stocks at Refineries, Monthly",Inventory,Refineries,VR7,PADD5,aPSM_Inventories.csv,1
+PET.W_EPOBGRR_SAE_R10_MBBL.W,"East Coast (PADD 1) Ending Stocks of Motor Gasoline Blending Components, RBOB, Weekly",Inventory,Weekly,RBOBs,PADD1,aPSM_Inventories.csv,1
+PET.W_EPOBGRR_SAE_R20_MBBL.W,"Midwest (PADD 2) Ending Stocks of Motor Gasoline Blending Components, RBOB, Weekly",Inventory,Weekly,RBOBs,PADD2,aPSM_Inventories.csv,1
+PET.W_EPOBGRR_SAE_R30_MBBL.W,"Gulf Coast (PADD 3) Ending Stocks of Motor Gasoline Blending Components, RBOB, Weekly",Inventory,Weekly,RBOBs,PADD3,aPSM_Inventories.csv,1
+PET.W_EPOBGRR_SAE_R40_MBBL.W,"Rocky Mountain (PADD 4) Ending Stocks of Motor Gasoline Blending Components, RBOB, Weekly",Inventory,Weekly,RBOBs,PADD4,aPSM_Inventories.csv,1
+PET.W_EPOBGRR_SAE_R50_MBBL.W,"West Coast (PADD 5) Ending Stocks of Motor Gasoline Blending Components, RBOB, Weekly",Inventory,Weekly,CaRBOBs,PADD5,aPSM_Inventories.csv,1
+PET.WO9ST_R10_1.W,"East Coast (PADD 1) Ending Stocks of Conventional Other Gasoline Blending Components, Weekly",Inventory,Weekly,CBOBs,PADD1,aPSM_Inventories.csv,1
+PET.WO9ST_R20_1.W,"Midwest (PADD 2) Ending Stocks of Conventional Other Gasoline Blending Components, Weekly",Inventory,Weekly,CBOBs,PADD2,aPSM_Inventories.csv,1
+PET.WO9ST_R30_1.W,"Gulf Coast (PADD 3) Ending Stocks of Conventional Other Gasoline Blending Components, Weekly",Inventory,Weekly,CBOBs,PADD3,aPSM_Inventories.csv,1
+PET.WO9ST_R40_1.W,"Rocky Mountain (PADD 4) Ending Stocks of Conventional Other Gasoline Blending Components, Weekly",Inventory,Weekly,CBOBs,PADD4,aPSM_Inventories.csv,1
+PET.WO9ST_R50_1.W,"West Coast (PADD 5) Ending Stocks of Conventional Other Gasoline Blending Components, Weekly",Inventory,Weekly,CBOBs,PADD5,aPSM_Inventories.csv,1
+PET.WO6ST_R10_1.W,"East Coast (PADD 1) Ending Stocks of Conventional CBOB Gasoline Blending Components, Weekly",Inventory,Weekly,CBOBs,PADD1,aPSM_Inventories.csv,1
+PET.WO6ST_R20_1.W,"Midwest (PADD 2) Ending Stocks of Conventional CBOB Gasoline Blending Components, Weekly",Inventory,Weekly,CBOBs,PADD2,aPSM_Inventories.csv,1
+PET.WO6ST_R30_1.W,"Gulf Coast (PADD 3) Ending Stocks of Conventional CBOB Gasoline Blending Components, Weekly",Inventory,Weekly,CBOBs,PADD3,aPSM_Inventories.csv,1
+PET.WO6ST_R40_1.W,"Rocky Mountain (PADD 4) Ending Stocks of Conventional CBOB Gasoline Blending Components, Weekly",Inventory,Weekly,CBOBs,PADD4,aPSM_Inventories.csv,1
+PET.WO6ST_R50_1.W,"West Coast (PADD 5) Ending Stocks of Conventional CBOB Gasoline Blending Components, Weekly",Inventory,Weekly,CBOBs,PADD5,aPSM_Inventories.csv,1
+PET.WO7ST_R10_1.W,"East Coast (PADD 1) Ending Stocks of Conventional GTAB Gasoline Blending Components, Weekly",Inventory,Weekly,CBOBs,PADD1,aPSM_Inventories.csv,1
+PET.WO7ST_R20_1.W,"Midwest (PADD 2) Ending Stocks of Conventional GTAB Gasoline Blending Components, Weekly",Inventory,Weekly,CBOBs,PADD2,aPSM_Inventories.csv,1
+PET.WO7ST_R30_1.W,"Gulf Coast (PADD 3) Ending Stocks of Conventional GTAB Gasoline Blending Components, Weekly",Inventory,Weekly,CBOBs,PADD3,aPSM_Inventories.csv,1
+PET.WO7ST_R40_1.W,"Rocky Mountain (PADD 4) Ending Stocks of Conventional GTAB Gasoline Blending Components, Weekly",Inventory,Weekly,CBOBs,PADD4,aPSM_Inventories.csv,1
+PET.WO7ST_R50_1.W,"West Coast (PADD 5) Ending Stocks of Conventional GTAB Gasoline Blending Components, Weekly",Inventory,Weekly,CBOBs,PADD5,aPSM_Inventories.csv,1
+PET.WG4ST_R10_1.W,"East Coast (PADD 1) Ending Stocks of Conventional Motor Gasoline, Weekly",Inventory,Weekly,CFGsout,PADD1,aPSM_Inventories.csv,1
+PET.WG4ST_R20_1.W,"Midwest (PADD 2) Ending Stocks of Conventional Motor Gasoline, Weekly",Inventory,Weekly,CFGsout,PADD2,aPSM_Inventories.csv,1
+PET.WG4ST_R30_1.W,"Gulf Coast (PADD 3) Ending Stocks of Conventional Motor Gasoline, Weekly",Inventory,Weekly,CFGsout,PADD3,aPSM_Inventories.csv,1
+PET.WG4ST_R40_1.W,"Rocky Mountain (PADD 4) Ending Stocks of Conventional Motor Gasoline, Weekly",Inventory,Weekly,CFGsout,PADD4,aPSM_Inventories.csv,1
+PET.WG4ST_R50_1.W,"West Coast (PADD 5) Ending Stocks of Conventional Motor Gasoline, Weekly",Inventory,Weekly,CFGsout,PADD5,aPSM_Inventories.csv,1
+PET.WGRSTP11.W,"East Coast (PADD 1) Ending Stocks of Reformulated Motor Gasoline, Weekly",Inventory,Weekly,RFGsout,PADD1,aPSM_Inventories.csv,1
+PET.WGRSTP21.W,"Midwest (PADD 2) Ending Stocks of Reformulated Motor Gasoline, Weekly",Inventory,Weekly,RFGsout,PADD2,aPSM_Inventories.csv,1
+PET.WGRSTP31.W,"Gulf Coast (PADD 3) Ending Stocks of Reformulated Motor Gasoline, Weekly",Inventory,Weekly,RFGsout,PADD3,aPSM_Inventories.csv,1
+PET.WGRSTP41.W,"Rocky Mountain (PADD 4) Ending Stocks of Reformulated Motor Gasoline, Weekly",Inventory,Weekly,RFGsout,PADD4,aPSM_Inventories.csv,1
+PET.WGRSTP51.W,"West Coast (PADD 5) Ending Stocks of Reformulated Motor Gasoline, Weekly",Inventory,Weekly,CaRBOBsout,PADD5,aPSM_Inventories.csv,1
+PET.WD0ST_R10_1.W,"East Coast (PADD 1) Ending Stocks of Distillate Fuel Oil, 0 to 15 ppm Sulfur, Weekly",Inventory,Weekly,DSUout,PADD1,aPSM_Inventories.csv,1
+PET.WD0ST_R20_1.W,"Midwest (PADD 2) Ending Stocks of Distillate Fuel Oil, 0 to 15 ppm Sulfur, Weekly",Inventory,Weekly,DSUout,PADD2,aPSM_Inventories.csv,1
+PET.WD0ST_R30_1.W,"Gulf Coast (PADD 3) Ending Stocks of Distillate Fuel Oil, 0 to 15 ppm Sulfur, Weekly",Inventory,Weekly,DSUout,PADD3,aPSM_Inventories.csv,1
+PET.WD0ST_R40_1.W,"Rocky Mountain (PADD 4) Ending Stocks of Distillate Fuel Oil, 0 to 15 ppm Sulfur, Weekly",Inventory,Weekly,DSUout,PADD4,aPSM_Inventories.csv,1
+PET.WD0ST_R50_1.W,"West Coast (PADD 5) Ending Stocks of Distillate Fuel Oil, 0 to 15 ppm Sulfur, Weekly",Inventory,Weekly,CarbDSUout,PADD5,aPSM_Inventories.csv,1
+PET.WD1ST_R10_1.W,"East Coast (PADD 1) Ending Stocks of Distillate Fuel Oil, Greater than 15 to 500 ppm Sulfur, Weekly",Inventory,Weekly,DSLout,PADD1,aPSM_Inventories.csv,1
+PET.WD1ST_R20_1.W,"Midwest (PADD 2) Ending Stocks of Distillate Fuel Oil, Greater than 15 to 500 ppm Sulfur, Weekly",Inventory,Weekly,DSLout,PADD2,aPSM_Inventories.csv,1
+PET.WD1ST_R30_1.W,"Gulf Coast (PADD 3) Ending Stocks of Distillate Fuel Oil, Greater than 15 to 500 ppm Sulfur, Weekly",Inventory,Weekly,DSLout,PADD3,aPSM_Inventories.csv,1
+PET.WD1ST_R40_1.W,"Rocky Mountain (PADD 4) Ending Stocks of Distillate Fuel Oil, Greater than 15 to 500 ppm Sulfur, Weekly",Inventory,Weekly,DSLout,PADD4,aPSM_Inventories.csv,1
+PET.WD1ST_R50_1.W,"West Coast (PADD 5) Ending Stocks of Distillate Fuel Oil, Greater than 15 to 500 ppm Sulfur, Weekly",Inventory,Weekly,DSLout,PADD5,aPSM_Inventories.csv,1
+PET.WDGSTP11.W,"East Coast (PADD 1) Ending Stocks of Distillate Fuel Oil, Greater Than 500 ppm Sulfur, Weekly",Inventory,Weekly,N2Hout,PADD1,aPSM_Inventories.csv,1
+PET.WDGSTP21.W,"Midwest (PADD 2) Ending Stocks of Distillate Fuel Oil, Greater Than 500 ppm Sulfur, Weekly",Inventory,Weekly,N2Hout,PADD2,aPSM_Inventories.csv,1
+PET.WDGSTP31.W,"Gulf Coast (PADD 3) Ending Stocks of Distillate Fuel Oil, Greater Than 500 ppm Sulfur, Weekly",Inventory,Weekly,N2Hout,PADD3,aPSM_Inventories.csv,1
+PET.WDGSTP41.W,"Rocky Mountain (PADD 4) Ending Stocks of Distillate Fuel Oil, Greater Than 500 ppm Sulfur, Weekly",Inventory,Weekly,N2Hout,PADD4,aPSM_Inventories.csv,1
+PET.WDGSTP51.W,"West Coast (PADD 5) Ending Stocks of Distillate Fuel Oil, Greater Than 500 ppm Sulfur, Weekly",Inventory,Weekly,N2Hout,PADD5,aPSM_Inventories.csv,1
+PET.WKJSTP11.W,"East Coast (PADD 1) Ending Stocks of Kerosene-Type Jet Fuel, Weekly",Inventory,Weekly,JTAout,PADD1,aPSM_Inventories.csv,1
+PET.WKJSTP21.W,"Midwest (PADD 2) Ending Stocks of Kerosene-Type Jet Fuel, Weekly",Inventory,Weekly,JTAout,PADD2,aPSM_Inventories.csv,1
+PET.WKJSTP31.W,"Gulf Coast (PADD 3) Ending Stocks of Kerosene-Type Jet Fuel, Weekly",Inventory,Weekly,JTAout,PADD3,aPSM_Inventories.csv,1
+PET.WKJSTP41.W,"Rocky Mountain (PADD 4) Ending Stocks of Kerosene-Type Jet Fuel, Weekly",Inventory,Weekly,JTAout,PADD4,aPSM_Inventories.csv,1
+PET.WKJSTP51.W,"West Coast (PADD 5) Ending Stocks of Kerosene-Type Jet Fuel, Weekly",Inventory,Weekly,JTAout,PADD5,aPSM_Inventories.csv,1
+PET.WPRSTP11.W,"East Coast (PADD 1) Ending Stocks of Propane and Propylene, Weekly",Inventory,Weekly,LPGout,PADD1,aPSM_Inventories.csv,1
+PET.WPRSTP21.W,"Midwest (PADD 2) Ending Stocks of Propane and Propylene, Weekly",Inventory,Weekly,LPGout,PADD2,aPSM_Inventories.csv,1
+PET.WPRSTP31.W,"Gulf Coast (PADD 3) Ending Stocks of Propane and Propylene, Weekly",Inventory,Weekly,LPGout,PADD3,aPSM_Inventories.csv,1
+PET.WPRST_R4N5_1.W,"PADD 4 and PADD 5 Ending Stocks of Propane and Propylene, Weekly",Inventory,Weekly,LPGout,PADD45,aPSM_Inventories.csv,1
+PET.WRESTP11.W,"East Coast (PADD 1) Ending Stocks of Residual Fuel Oil, Weekly",Inventory,Weekly,N6Iout,PADD1,aPSM_Inventories.csv,1
+PET.WRESTP21.W,"Midwest (PADD 2) Ending Stocks of Residual Fuel Oil, Weekly",Inventory,Weekly,N6Iout,PADD2,aPSM_Inventories.csv,1
+PET.WRESTP31.W,"Gulf Coast (PADD 3) Ending Stocks of Residual Fuel Oil, Weekly",Inventory,Weekly,N6Iout,PADD3,aPSM_Inventories.csv,1
+PET.WRESTP41.W,"Rocky Mountain (PADD 4) Ending Stocks of Residual Fuel Oil, Weekly",Inventory,Weekly,N6Iout,PADD4,aPSM_Inventories.csv,1
+PET.WRESTP51.W,"West Coast (PADD 5) Ending Stocks of Residual Fuel Oil, Weekly",Inventory,Weekly,N6Iout,PADD5,aPSM_Inventories.csv,1
+PET.WCESTP11.W,"East Coast (PADD 1) Ending Stocks excluding SPR of Crude Oil, Weekly",Inventory,Weekly,crudeoil,PADD1,aPSM_Inventories.csv,1
+PET.WCESTP21.W,"Midwest (PADD 2) Ending Stocks excluding SPR of Crude Oil, Weekly",Inventory,Weekly,crudeoil,PADD2,aPSM_Inventories.csv,1
+PET.WCESTP31.W,"Gulf Coast (PADD 3) Ending Stocks excluding SPR of Crude Oil, Weekly",Inventory,Weekly,crudeoil,PADD3,aPSM_Inventories.csv,1
+PET.WCESTP41.W,"Rocky Mountain (PADD 4) Ending Stocks excluding SPR of Crude Oil, Weekly",Inventory,Weekly,crudeoil,PADD4,aPSM_Inventories.csv,1
+PET.WCESTP51.W,"West Coast (PADD 5) Ending Stocks excluding SPR of Crude Oil, Weekly",Inventory,Weekly,crudeoil,PADD5,aPSM_Inventories.csv,1
+PET.W_EPPO6_SAE_NUS_MBBL.W,"U.S. Ending Stocks of Other Oils (Excluding Fuel Ethanol), Weekly",Inventory,Weekly,Other,US,aPSM_Inventories.csv,1
+PET.W_EPPA_SAE_NUS_MBBL.W,"U.S. Ending Stocks of Asphalt and Road Oil, Weekly",Inventory,Weekly,ASPHout,US,aPSM_Inventories.csv,1
+PET.WUOSTUS1.W,"U.S. Ending Stocks of Unfinished Oils, Weekly",Inventory,Weekly,UFO,US,aPSM_Inventories.csv,1
+PET.W_EPL0XP_SAE_NUS_MBBL.W,"U.S. Ending Stocks of NGPLs\/LRGs (Excluding Propane\/Propylene), Weekly",Inventory,Weekly,NGL,US,aPSM_Inventories.csv,1
+SEDS.FOICP.AK.A,"Petrochemical feedstocks, other oils equal to or greater than 401o F, consumed by the industrial sector, Alaska",SEDSdata,none,PCFout,AK,aSEDS_DemandData.csv,1
+SEDS.FNICP.AK.A,"Petrochemical feedstocks, naphtha less than 401o F, consumed by the industrial sector, Alaska",SEDSdata,none,PCFout,AK,aSEDS_DemandData.csv,1
+SEDS.FOICP.AL.A,"Petrochemical feedstocks, other oils equal to or greater than 401o F, consumed by the industrial sector, Alabama",SEDSdata,none,PCFout,AL,aSEDS_DemandData.csv,1
+SEDS.FNICP.AL.A,"Petrochemical feedstocks, naphtha less than 401o F, consumed by the industrial sector, Alabama",SEDSdata,none,PCFout,AL,aSEDS_DemandData.csv,1
+SEDS.FOICP.AR.A,"Petrochemical feedstocks, other oils equal to or greater than 401o F, consumed by the industrial sector, Arkansas",SEDSdata,none,PCFout,AR,aSEDS_DemandData.csv,1
+SEDS.FNICP.AR.A,"Petrochemical feedstocks, naphtha less than 401o F, consumed by the industrial sector, Arkansas",SEDSdata,none,PCFout,AR,aSEDS_DemandData.csv,1
+SEDS.FOICP.AZ.A,"Petrochemical feedstocks, other oils equal to or greater than 401o F, consumed by the industrial sector, Arizona",SEDSdata,none,PCFout,AZ,aSEDS_DemandData.csv,1
+SEDS.FNICP.AZ.A,"Petrochemical feedstocks, naphtha less than 401o F, consumed by the industrial sector, Arizona",SEDSdata,none,PCFout,AZ,aSEDS_DemandData.csv,1
+SEDS.FOICP.CA.A,"Petrochemical feedstocks, other oils equal to or greater than 401o F, consumed by the industrial sector, California",SEDSdata,none,PCFout,CA,aSEDS_DemandData.csv,1
+SEDS.FNICP.CA.A,"Petrochemical feedstocks, naphtha less than 401o F, consumed by the industrial sector, California",SEDSdata,none,PCFout,CA,aSEDS_DemandData.csv,1
+SEDS.FOICP.CO.A,"Petrochemical feedstocks, other oils equal to or greater than 401o F, consumed by the industrial sector, Colorado",SEDSdata,none,PCFout,CO,aSEDS_DemandData.csv,1
+SEDS.FNICP.CO.A,"Petrochemical feedstocks, naphtha less than 401o F, consumed by the industrial sector, Colorado",SEDSdata,none,PCFout,CO,aSEDS_DemandData.csv,1
+SEDS.FOICP.CT.A,"Petrochemical feedstocks, other oils equal to or greater than 401o F, consumed by the industrial sector, Connecticut",SEDSdata,none,PCFout,CT,aSEDS_DemandData.csv,1
+SEDS.FNICP.CT.A,"Petrochemical feedstocks, naphtha less than 401o F, consumed by the industrial sector, Connecticut",SEDSdata,none,PCFout,CT,aSEDS_DemandData.csv,1
+SEDS.FOICP.DE.A,"Petrochemical feedstocks, other oils equal to or greater than 401o F, consumed by the industrial sector, Delaware",SEDSdata,none,PCFout,DE,aSEDS_DemandData.csv,1
+SEDS.FNICP.DE.A,"Petrochemical feedstocks, naphtha less than 401o F, consumed by the industrial sector, Delaware",SEDSdata,none,PCFout,DE,aSEDS_DemandData.csv,1
+SEDS.FOICP.FL.A,"Petrochemical feedstocks, other oils equal to or greater than 401o F, consumed by the industrial sector, Florida",SEDSdata,none,PCFout,FL,aSEDS_DemandData.csv,1
+SEDS.FNICP.FL.A,"Petrochemical feedstocks, naphtha less than 401o F, consumed by the industrial sector, Florida",SEDSdata,none,PCFout,FL,aSEDS_DemandData.csv,1
+SEDS.FOICP.GA.A,"Petrochemical feedstocks, other oils equal to or greater than 401o F, consumed by the industrial sector, Georgia",SEDSdata,none,PCFout,GA,aSEDS_DemandData.csv,1
+SEDS.FNICP.GA.A,"Petrochemical feedstocks, naphtha less than 401o F, consumed by the industrial sector, Georgia",SEDSdata,none,PCFout,GA,aSEDS_DemandData.csv,1
+SEDS.FOICP.HI.A,"Petrochemical feedstocks, other oils equal to or greater than 401o F, consumed by the industrial sector, Hawaii",SEDSdata,none,PCFout,HI,aSEDS_DemandData.csv,1
+SEDS.FNICP.HI.A,"Petrochemical feedstocks, naphtha less than 401o F, consumed by the industrial sector, Hawaii",SEDSdata,none,PCFout,HI,aSEDS_DemandData.csv,1
+SEDS.FOICP.IA.A,"Petrochemical feedstocks, other oils equal to or greater than 401o F, consumed by the industrial sector, Iowa",SEDSdata,none,PCFout,IA,aSEDS_DemandData.csv,1
+SEDS.FNICP.IA.A,"Petrochemical feedstocks, naphtha less than 401o F, consumed by the industrial sector, Iowa",SEDSdata,none,PCFout,IA,aSEDS_DemandData.csv,1
+SEDS.FOICP.ID.A,"Petrochemical feedstocks, other oils equal to or greater than 401o F, consumed by the industrial sector, Idaho",SEDSdata,none,PCFout,ID,aSEDS_DemandData.csv,1
+SEDS.FNICP.ID.A,"Petrochemical feedstocks, naphtha less than 401o F, consumed by the industrial sector, Idaho",SEDSdata,none,PCFout,ID,aSEDS_DemandData.csv,1
+SEDS.FOICP.IL.A,"Petrochemical feedstocks, other oils equal to or greater than 401o F, consumed by the industrial sector, Illinois",SEDSdata,none,PCFout,IL,aSEDS_DemandData.csv,1
+SEDS.FNICP.IL.A,"Petrochemical feedstocks, naphtha less than 401o F, consumed by the industrial sector, Illinois",SEDSdata,none,PCFout,IL,aSEDS_DemandData.csv,1
+SEDS.FOICP.IN.A,"Petrochemical feedstocks, other oils equal to or greater than 401o F, consumed by the industrial sector, Indiana",SEDSdata,none,PCFout,IN,aSEDS_DemandData.csv,1
+SEDS.FNICP.IN.A,"Petrochemical feedstocks, naphtha less than 401o F, consumed by the industrial sector, Indiana",SEDSdata,none,PCFout,IN,aSEDS_DemandData.csv,1
+SEDS.FOICP.KS.A,"Petrochemical feedstocks, other oils equal to or greater than 401o F, consumed by the industrial sector, Kansas",SEDSdata,none,PCFout,KS,aSEDS_DemandData.csv,1
+SEDS.FNICP.KS.A,"Petrochemical feedstocks, naphtha less than 401o F, consumed by the industrial sector, Kansas",SEDSdata,none,PCFout,KS,aSEDS_DemandData.csv,1
+SEDS.FOICP.KY.A,"Petrochemical feedstocks, other oils equal to or greater than 401o F, consumed by the industrial sector, Kentucky",SEDSdata,none,PCFout,KY,aSEDS_DemandData.csv,1
+SEDS.FNICP.KY.A,"Petrochemical feedstocks, naphtha less than 401o F, consumed by the industrial sector, Kentucky",SEDSdata,none,PCFout,KY,aSEDS_DemandData.csv,1
+SEDS.FOICP.LA.A,"Petrochemical feedstocks, other oils equal to or greater than 401o F, consumed by the industrial sector, Louisiana",SEDSdata,none,PCFout,LA,aSEDS_DemandData.csv,1
+SEDS.FNICP.LA.A,"Petrochemical feedstocks, naphtha less than 401o F, consumed by the industrial sector, Louisiana",SEDSdata,none,PCFout,LA,aSEDS_DemandData.csv,1
+SEDS.FOICP.MA.A,"Petrochemical feedstocks, other oils equal to or greater than 401o F, consumed by the industrial sector, Massachusetts",SEDSdata,none,PCFout,MA,aSEDS_DemandData.csv,1
+SEDS.FNICP.MA.A,"Petrochemical feedstocks, naphtha less than 401o F, consumed by the industrial sector, Massachusetts",SEDSdata,none,PCFout,MA,aSEDS_DemandData.csv,1
+SEDS.FOICP.MD.A,"Petrochemical feedstocks, other oils equal to or greater than 401o F, consumed by the industrial sector, Maryland",SEDSdata,none,PCFout,MD,aSEDS_DemandData.csv,1
+SEDS.FNICP.MD.A,"Petrochemical feedstocks, naphtha less than 401o F, consumed by the industrial sector, Maryland",SEDSdata,none,PCFout,MD,aSEDS_DemandData.csv,1
+SEDS.FOICP.ME.A,"Petrochemical feedstocks, other oils equal to or greater than 401o F, consumed by the industrial sector, Maine",SEDSdata,none,PCFout,ME,aSEDS_DemandData.csv,1
+SEDS.FNICP.ME.A,"Petrochemical feedstocks, naphtha less than 401o F, consumed by the industrial sector, Maine",SEDSdata,none,PCFout,ME,aSEDS_DemandData.csv,1
+SEDS.FOICP.MI.A,"Petrochemical feedstocks, other oils equal to or greater than 401o F, consumed by the industrial sector, Michigan",SEDSdata,none,PCFout,MI,aSEDS_DemandData.csv,1
+SEDS.FNICP.MI.A,"Petrochemical feedstocks, naphtha less than 401o F, consumed by the industrial sector, Michigan",SEDSdata,none,PCFout,MI,aSEDS_DemandData.csv,1
+SEDS.FOICP.MN.A,"Petrochemical feedstocks, other oils equal to or greater than 401o F, consumed by the industrial sector, Minnesota",SEDSdata,none,PCFout,MN,aSEDS_DemandData.csv,1
+SEDS.FNICP.MN.A,"Petrochemical feedstocks, naphtha less than 401o F, consumed by the industrial sector, Minnesota",SEDSdata,none,PCFout,MN,aSEDS_DemandData.csv,1
+SEDS.FOICP.MO.A,"Petrochemical feedstocks, other oils equal to or greater than 401o F, consumed by the industrial sector, Missouri",SEDSdata,none,PCFout,MO,aSEDS_DemandData.csv,1
+SEDS.FNICP.MO.A,"Petrochemical feedstocks, naphtha less than 401o F, consumed by the industrial sector, Missouri",SEDSdata,none,PCFout,MO,aSEDS_DemandData.csv,1
+SEDS.FOICP.MS.A,"Petrochemical feedstocks, other oils equal to or greater than 401o F, consumed by the industrial sector, Mississippi",SEDSdata,none,PCFout,MS,aSEDS_DemandData.csv,1
+SEDS.FNICP.MS.A,"Petrochemical feedstocks, naphtha less than 401o F, consumed by the industrial sector, Mississippi",SEDSdata,none,PCFout,MS,aSEDS_DemandData.csv,1
+SEDS.FOICP.MT.A,"Petrochemical feedstocks, other oils equal to or greater than 401o F, consumed by the industrial sector, Montana",SEDSdata,none,PCFout,MT,aSEDS_DemandData.csv,1
+SEDS.FNICP.MT.A,"Petrochemical feedstocks, naphtha less than 401o F, consumed by the industrial sector, Montana",SEDSdata,none,PCFout,MT,aSEDS_DemandData.csv,1
+SEDS.FOICP.NC.A,"Petrochemical feedstocks, other oils equal to or greater than 401o F, consumed by the industrial sector, North Carolina",SEDSdata,none,PCFout,NC,aSEDS_DemandData.csv,1
+SEDS.FNICP.NC.A,"Petrochemical feedstocks, naphtha less than 401o F, consumed by the industrial sector, North Carolina",SEDSdata,none,PCFout,NC,aSEDS_DemandData.csv,1
+SEDS.FOICP.ND.A,"Petrochemical feedstocks, other oils equal to or greater than 401o F, consumed by the industrial sector, North Dakota",SEDSdata,none,PCFout,ND,aSEDS_DemandData.csv,1
+SEDS.FNICP.ND.A,"Petrochemical feedstocks, naphtha less than 401o F, consumed by the industrial sector, North Dakota",SEDSdata,none,PCFout,ND,aSEDS_DemandData.csv,1
+SEDS.FOICP.NE.A,"Petrochemical feedstocks, other oils equal to or greater than 401o F, consumed by the industrial sector, Nebraska",SEDSdata,none,PCFout,NE,aSEDS_DemandData.csv,1
+SEDS.FNICP.NE.A,"Petrochemical feedstocks, naphtha less than 401o F, consumed by the industrial sector, Nebraska",SEDSdata,none,PCFout,NE,aSEDS_DemandData.csv,1
+SEDS.FOICP.NH.A,"Petrochemical feedstocks, other oils equal to or greater than 401o F, consumed by the industrial sector, New Hampshire",SEDSdata,none,PCFout,NH,aSEDS_DemandData.csv,1
+SEDS.FNICP.NH.A,"Petrochemical feedstocks, naphtha less than 401o F, consumed by the industrial sector, New Hampshire",SEDSdata,none,PCFout,NH,aSEDS_DemandData.csv,1
+SEDS.FOICP.NJ.A,"Petrochemical feedstocks, other oils equal to or greater than 401o F, consumed by the industrial sector, New Jersey",SEDSdata,none,PCFout,NJ,aSEDS_DemandData.csv,1
+SEDS.FNICP.NJ.A,"Petrochemical feedstocks, naphtha less than 401o F, consumed by the industrial sector, New Jersey",SEDSdata,none,PCFout,NJ,aSEDS_DemandData.csv,1
+SEDS.FOICP.NM.A,"Petrochemical feedstocks, other oils equal to or greater than 401o F, consumed by the industrial sector, New Mexico",SEDSdata,none,PCFout,NM,aSEDS_DemandData.csv,1
+SEDS.FNICP.NM.A,"Petrochemical feedstocks, naphtha less than 401o F, consumed by the industrial sector, New Mexico",SEDSdata,none,PCFout,NM,aSEDS_DemandData.csv,1
+SEDS.FOICP.NV.A,"Petrochemical feedstocks, other oils equal to or greater than 401o F, consumed by the industrial sector, Nevada",SEDSdata,none,PCFout,NV,aSEDS_DemandData.csv,1
+SEDS.FNICP.NV.A,"Petrochemical feedstocks, naphtha less than 401o F, consumed by the industrial sector, Nevada",SEDSdata,none,PCFout,NV,aSEDS_DemandData.csv,1
+SEDS.FOICP.NY.A,"Petrochemical feedstocks, other oils equal to or greater than 401o F, consumed by the industrial sector, New York",SEDSdata,none,PCFout,NY,aSEDS_DemandData.csv,1
+SEDS.FNICP.NY.A,"Petrochemical feedstocks, naphtha less than 401o F, consumed by the industrial sector, New York",SEDSdata,none,PCFout,NY,aSEDS_DemandData.csv,1
+SEDS.FOICP.OH.A,"Petrochemical feedstocks, other oils equal to or greater than 401o F, consumed by the industrial sector, Ohio",SEDSdata,none,PCFout,OH,aSEDS_DemandData.csv,1
+SEDS.FNICP.OH.A,"Petrochemical feedstocks, naphtha less than 401o F, consumed by the industrial sector, Ohio",SEDSdata,none,PCFout,OH,aSEDS_DemandData.csv,1
+SEDS.FOICP.OK.A,"Petrochemical feedstocks, other oils equal to or greater than 401o F, consumed by the industrial sector, Oklahoma",SEDSdata,none,PCFout,OK,aSEDS_DemandData.csv,1
+SEDS.FNICP.OK.A,"Petrochemical feedstocks, naphtha less than 401o F, consumed by the industrial sector, Oklahoma",SEDSdata,none,PCFout,OK,aSEDS_DemandData.csv,1
+SEDS.FOICP.OR.A,"Petrochemical feedstocks, other oils equal to or greater than 401o F, consumed by the industrial sector, Oregon",SEDSdata,none,PCFout,OR,aSEDS_DemandData.csv,1
+SEDS.FNICP.OR.A,"Petrochemical feedstocks, naphtha less than 401o F, consumed by the industrial sector, Oregon",SEDSdata,none,PCFout,OR,aSEDS_DemandData.csv,1
+SEDS.FOICP.PA.A,"Petrochemical feedstocks, other oils equal to or greater than 401o F, consumed by the industrial sector, Pennsylvania",SEDSdata,none,PCFout,PA,aSEDS_DemandData.csv,1
+SEDS.FNICP.PA.A,"Petrochemical feedstocks, naphtha less than 401o F, consumed by the industrial sector, Pennsylvania",SEDSdata,none,PCFout,PA,aSEDS_DemandData.csv,1
+SEDS.FOICP.RI.A,"Petrochemical feedstocks, other oils equal to or greater than 401o F, consumed by the industrial sector, Rhode Island",SEDSdata,none,PCFout,RI,aSEDS_DemandData.csv,1
+SEDS.FNICP.RI.A,"Petrochemical feedstocks, naphtha less than 401o F, consumed by the industrial sector, Rhode Island",SEDSdata,none,PCFout,RI,aSEDS_DemandData.csv,1
+SEDS.FOICP.SC.A,"Petrochemical feedstocks, other oils equal to or greater than 401o F, consumed by the industrial sector, South Carolina",SEDSdata,none,PCFout,SC,aSEDS_DemandData.csv,1
+SEDS.FNICP.SC.A,"Petrochemical feedstocks, naphtha less than 401o F, consumed by the industrial sector, South Carolina",SEDSdata,none,PCFout,SC,aSEDS_DemandData.csv,1
+SEDS.FOICP.SD.A,"Petrochemical feedstocks, other oils equal to or greater than 401o F, consumed by the industrial sector, South Dakota",SEDSdata,none,PCFout,SD,aSEDS_DemandData.csv,1
+SEDS.FNICP.SD.A,"Petrochemical feedstocks, naphtha less than 401o F, consumed by the industrial sector, South Dakota",SEDSdata,none,PCFout,SD,aSEDS_DemandData.csv,1
+SEDS.FOICP.TN.A,"Petrochemical feedstocks, other oils equal to or greater than 401o F, consumed by the industrial sector, Tennessee",SEDSdata,none,PCFout,TN,aSEDS_DemandData.csv,1
+SEDS.FNICP.TN.A,"Petrochemical feedstocks, naphtha less than 401o F, consumed by the industrial sector, Tennessee",SEDSdata,none,PCFout,TN,aSEDS_DemandData.csv,1
+SEDS.FOICP.TX.A,"Petrochemical feedstocks, other oils equal to or greater than 401o F, consumed by the industrial sector, Texas",SEDSdata,none,PCFout,TX,aSEDS_DemandData.csv,1
+SEDS.FNICP.TX.A,"Petrochemical feedstocks, naphtha less than 401o F, consumed by the industrial sector, Texas",SEDSdata,none,PCFout,TX,aSEDS_DemandData.csv,1
+SEDS.FOICP.US.A,"Petrochemical feedstocks, other oils equal to or greater than 401o F, consumed by the industrial sector, United States",SEDSdata,none,PCFout,US,aSEDS_DemandData.csv,1
+SEDS.FNICP.US.A,"Petrochemical feedstocks, naphtha less than 401o F, consumed by the industrial sector, United States",SEDSdata,none,PCFout,US,aSEDS_DemandData.csv,1
+SEDS.FOICP.UT.A,"Petrochemical feedstocks, other oils equal to or greater than 401o F, consumed by the industrial sector, Utah",SEDSdata,none,PCFout,UT,aSEDS_DemandData.csv,1
+SEDS.FNICP.UT.A,"Petrochemical feedstocks, naphtha less than 401o F, consumed by the industrial sector, Utah",SEDSdata,none,PCFout,UT,aSEDS_DemandData.csv,1
+SEDS.FOICP.VA.A,"Petrochemical feedstocks, other oils equal to or greater than 401o F, consumed by the industrial sector, Virginia",SEDSdata,none,PCFout,VA,aSEDS_DemandData.csv,1
+SEDS.FNICP.VA.A,"Petrochemical feedstocks, naphtha less than 401o F, consumed by the industrial sector, Virginia",SEDSdata,none,PCFout,VA,aSEDS_DemandData.csv,1
+SEDS.FOICP.VT.A,"Petrochemical feedstocks, other oils equal to or greater than 401o F, consumed by the industrial sector, Vermont",SEDSdata,none,PCFout,VT,aSEDS_DemandData.csv,1
+SEDS.FNICP.VT.A,"Petrochemical feedstocks, naphtha less than 401o F, consumed by the industrial sector, Vermont",SEDSdata,none,PCFout,VT,aSEDS_DemandData.csv,1
+SEDS.FOICP.WA.A,"Petrochemical feedstocks, other oils equal to or greater than 401o F, consumed by the industrial sector, Washington",SEDSdata,none,PCFout,WA,aSEDS_DemandData.csv,1
+SEDS.FNICP.WA.A,"Petrochemical feedstocks, naphtha less than 401o F, consumed by the industrial sector, Washington",SEDSdata,none,PCFout,WA,aSEDS_DemandData.csv,1
+SEDS.FOICP.WI.A,"Petrochemical feedstocks, other oils equal to or greater than 401o F, consumed by the industrial sector, Wisconsin",SEDSdata,none,PCFout,WI,aSEDS_DemandData.csv,1
+SEDS.FNICP.WI.A,"Petrochemical feedstocks, naphtha less than 401o F, consumed by the industrial sector, Wisconsin",SEDSdata,none,PCFout,WI,aSEDS_DemandData.csv,1
+SEDS.FOICP.WV.A,"Petrochemical feedstocks, other oils equal to or greater than 401o F, consumed by the industrial sector, West Virginia",SEDSdata,none,PCFout,WV,aSEDS_DemandData.csv,1
+SEDS.FNICP.WV.A,"Petrochemical feedstocks, naphtha less than 401o F, consumed by the industrial sector, West Virginia",SEDSdata,none,PCFout,WV,aSEDS_DemandData.csv,1
+SEDS.FOICP.WY.A,"Petrochemical feedstocks, other oils equal to or greater than 401o F, consumed by the industrial sector, Wyoming",SEDSdata,none,PCFout,WY,aSEDS_DemandData.csv,1
+SEDS.FNICP.WY.A,"Petrochemical feedstocks, naphtha less than 401o F, consumed by the industrial sector, Wyoming",SEDSdata,none,PCFout,WY,aSEDS_DemandData.csv,1
+SEDS.SNICP.AK.A,"Special naphthas consumed by the industrial sector, Alaska",SEDSdata,none,SPNout,AK,aSEDS_DemandData.csv,1
+SEDS.SNICP.AL.A,"Special naphthas consumed by the industrial sector, Alabama",SEDSdata,none,SPNout,AL,aSEDS_DemandData.csv,1
+SEDS.SNICP.AR.A,"Special naphthas consumed by the industrial sector, Arkansas",SEDSdata,none,SPNout,AR,aSEDS_DemandData.csv,1
+SEDS.SNICP.AZ.A,"Special naphthas consumed by the industrial sector, Arizona",SEDSdata,none,SPNout,AZ,aSEDS_DemandData.csv,1
+SEDS.SNICP.CA.A,"Special naphthas consumed by the industrial sector, California",SEDSdata,none,SPNout,CA,aSEDS_DemandData.csv,1
+SEDS.SNICP.CO.A,"Special naphthas consumed by the industrial sector, Colorado",SEDSdata,none,SPNout,CO,aSEDS_DemandData.csv,1
+SEDS.SNICP.CT.A,"Special naphthas consumed by the industrial sector, Connecticut",SEDSdata,none,SPNout,CT,aSEDS_DemandData.csv,1
+SEDS.SNICP.DE.A,"Special naphthas consumed by the industrial sector, Delaware",SEDSdata,none,SPNout,DE,aSEDS_DemandData.csv,1
+SEDS.SNICP.FL.A,"Special naphthas consumed by the industrial sector, Florida",SEDSdata,none,SPNout,FL,aSEDS_DemandData.csv,1
+SEDS.SNICP.GA.A,"Special naphthas consumed by the industrial sector, Georgia",SEDSdata,none,SPNout,GA,aSEDS_DemandData.csv,1
+SEDS.SNICP.HI.A,"Special naphthas consumed by the industrial sector, Hawaii",SEDSdata,none,SPNout,HI,aSEDS_DemandData.csv,1
+SEDS.SNICP.IA.A,"Special naphthas consumed by the industrial sector, Iowa",SEDSdata,none,SPNout,IA,aSEDS_DemandData.csv,1
+SEDS.SNICP.ID.A,"Special naphthas consumed by the industrial sector, Idaho",SEDSdata,none,SPNout,ID,aSEDS_DemandData.csv,1
+SEDS.SNICP.IL.A,"Special naphthas consumed by the industrial sector, Illinois",SEDSdata,none,SPNout,IL,aSEDS_DemandData.csv,1
+SEDS.SNICP.IN.A,"Special naphthas consumed by the industrial sector, Indiana",SEDSdata,none,SPNout,IN,aSEDS_DemandData.csv,1
+SEDS.SNICP.KS.A,"Special naphthas consumed by the industrial sector, Kansas",SEDSdata,none,SPNout,KS,aSEDS_DemandData.csv,1
+SEDS.SNICP.KY.A,"Special naphthas consumed by the industrial sector, Kentucky",SEDSdata,none,SPNout,KY,aSEDS_DemandData.csv,1
+SEDS.SNICP.LA.A,"Special naphthas consumed by the industrial sector, Louisiana",SEDSdata,none,SPNout,LA,aSEDS_DemandData.csv,1
+SEDS.SNICP.MA.A,"Special naphthas consumed by the industrial sector, Massachusetts",SEDSdata,none,SPNout,MA,aSEDS_DemandData.csv,1
+SEDS.SNICP.MD.A,"Special naphthas consumed by the industrial sector, Maryland",SEDSdata,none,SPNout,MD,aSEDS_DemandData.csv,1
+SEDS.SNICP.ME.A,"Special naphthas consumed by the industrial sector, Maine",SEDSdata,none,SPNout,ME,aSEDS_DemandData.csv,1
+SEDS.SNICP.MI.A,"Special naphthas consumed by the industrial sector, Michigan",SEDSdata,none,SPNout,MI,aSEDS_DemandData.csv,1
+SEDS.SNICP.MN.A,"Special naphthas consumed by the industrial sector, Minnesota",SEDSdata,none,SPNout,MN,aSEDS_DemandData.csv,1
+SEDS.SNICP.MO.A,"Special naphthas consumed by the industrial sector, Missouri",SEDSdata,none,SPNout,MO,aSEDS_DemandData.csv,1
+SEDS.SNICP.MS.A,"Special naphthas consumed by the industrial sector, Mississippi",SEDSdata,none,SPNout,MS,aSEDS_DemandData.csv,1
+SEDS.SNICP.MT.A,"Special naphthas consumed by the industrial sector, Montana",SEDSdata,none,SPNout,MT,aSEDS_DemandData.csv,1
+SEDS.SNICP.NC.A,"Special naphthas consumed by the industrial sector, North Carolina",SEDSdata,none,SPNout,NC,aSEDS_DemandData.csv,1
+SEDS.SNICP.ND.A,"Special naphthas consumed by the industrial sector, North Dakota",SEDSdata,none,SPNout,ND,aSEDS_DemandData.csv,1
+SEDS.SNICP.NE.A,"Special naphthas consumed by the industrial sector, Nebraska",SEDSdata,none,SPNout,NE,aSEDS_DemandData.csv,1
+SEDS.SNICP.NH.A,"Special naphthas consumed by the industrial sector, New Hampshire",SEDSdata,none,SPNout,NH,aSEDS_DemandData.csv,1
+SEDS.SNICP.NJ.A,"Special naphthas consumed by the industrial sector, New Jersey",SEDSdata,none,SPNout,NJ,aSEDS_DemandData.csv,1
+SEDS.SNICP.NM.A,"Special naphthas consumed by the industrial sector, New Mexico",SEDSdata,none,SPNout,NM,aSEDS_DemandData.csv,1
+SEDS.SNICP.NV.A,"Special naphthas consumed by the industrial sector, Nevada",SEDSdata,none,SPNout,NV,aSEDS_DemandData.csv,1
+SEDS.SNICP.NY.A,"Special naphthas consumed by the industrial sector, New York",SEDSdata,none,SPNout,NY,aSEDS_DemandData.csv,1
+SEDS.SNICP.OH.A,"Special naphthas consumed by the industrial sector, Ohio",SEDSdata,none,SPNout,OH,aSEDS_DemandData.csv,1
+SEDS.SNICP.OK.A,"Special naphthas consumed by the industrial sector, Oklahoma",SEDSdata,none,SPNout,OK,aSEDS_DemandData.csv,1
+SEDS.SNICP.OR.A,"Special naphthas consumed by the industrial sector, Oregon",SEDSdata,none,SPNout,OR,aSEDS_DemandData.csv,1
+SEDS.SNICP.PA.A,"Special naphthas consumed by the industrial sector, Pennsylvania",SEDSdata,none,SPNout,PA,aSEDS_DemandData.csv,1
+SEDS.SNICP.RI.A,"Special naphthas consumed by the industrial sector, Rhode Island",SEDSdata,none,SPNout,RI,aSEDS_DemandData.csv,1
+SEDS.SNICP.SC.A,"Special naphthas consumed by the industrial sector, South Carolina",SEDSdata,none,SPNout,SC,aSEDS_DemandData.csv,1
+SEDS.SNICP.SD.A,"Special naphthas consumed by the industrial sector, South Dakota",SEDSdata,none,SPNout,SD,aSEDS_DemandData.csv,1
+SEDS.SNICP.TN.A,"Special naphthas consumed by the industrial sector, Tennessee",SEDSdata,none,SPNout,TN,aSEDS_DemandData.csv,1
+SEDS.SNICP.TX.A,"Special naphthas consumed by the industrial sector, Texas",SEDSdata,none,SPNout,TX,aSEDS_DemandData.csv,1
+SEDS.SNICP.US.A,"Special naphthas consumed by the industrial sector, United States",SEDSdata,none,SPNout,US,aSEDS_DemandData.csv,1
+SEDS.SNICP.UT.A,"Special naphthas consumed by the industrial sector, Utah",SEDSdata,none,SPNout,UT,aSEDS_DemandData.csv,1
+SEDS.SNICP.VA.A,"Special naphthas consumed by the industrial sector, Virginia",SEDSdata,none,SPNout,VA,aSEDS_DemandData.csv,1
+SEDS.SNICP.VT.A,"Special naphthas consumed by the industrial sector, Vermont",SEDSdata,none,SPNout,VT,aSEDS_DemandData.csv,1
+SEDS.SNICP.WA.A,"Special naphthas consumed by the industrial sector, Washington",SEDSdata,none,SPNout,WA,aSEDS_DemandData.csv,1
+SEDS.SNICP.WI.A,"Special naphthas consumed by the industrial sector, Wisconsin",SEDSdata,none,SPNout,WI,aSEDS_DemandData.csv,1
+SEDS.SNICP.WV.A,"Special naphthas consumed by the industrial sector, West Virginia",SEDSdata,none,SPNout,WV,aSEDS_DemandData.csv,1
+SEDS.SNICP.WY.A,"Special naphthas consumed by the industrial sector, Wyoming",SEDSdata,none,SPNout,WY,aSEDS_DemandData.csv,1
+STEO.C4RIPUS.M,"Butanes\/Butylenes Refinery and Blender Net Inputs, Monthly",STEOCompare,STEO,C4RIPUS,US,aSTEO_CurrentOutput.csv,1
+STEO.CODIPUS.M,"Refinery Distillation Inputs  , Monthly",STEOCompare,STEO,CODIPUS,US,aSTEO_CurrentOutput.csv,1
+STEO.CORIPUS.M,"Crude OIl Refinery Input, Monthly",STEOCompare,STEO,CORIPUS,US,aSTEO_CurrentOutput.csv,1
+STEO.COSXPUS.M,"Crude Oil Inventory (excluding SPR), Monthly",STEOCompare,STEO,COSXPUS,US,aSTEO_CurrentOutput.csv,1
+STEO.D2RCAUS.M,"Heating Oil Retail Price Including Taxes, U.S. Average, Monthly",STEOCompare,STEO,D2RCAUS,US,aSTEO_CurrentOutput.csv,1
+STEO.D2WHUUS.M,"Heating Oil Refiner Wholesale Price, Monthly",STEOCompare,STEO,D2WHUUS,US,aSTEO_CurrentOutput.csv,1
+STEO.DFNIPUS.M,"Distillate Fuel Oil Net Imports, Monthly",STEOCompare,STEO,DFNIPUS,US,aSTEO_CurrentOutput.csv,1
+STEO.DFPSPP1.M,"Distillate Fuel Oil PADD 1 (East Coast) Inventory, Monthly",STEOCompare,STEO,DFPSPP1,PADD1,aSTEO_CurrentOutput.csv,1
+STEO.DFPSPP2.M,"Distillate Fuel Oil PADD 2 (Midwest) Inventory, Monthly",STEOCompare,STEO,DFPSPP2,PADD2,aSTEO_CurrentOutput.csv,1
+STEO.DFPSPP3.M,"Distillate Fuel Oil PADD 3 (Gulf Coast) Inventory, Monthly",STEOCompare,STEO,DFPSPP3,PADD3,aSTEO_CurrentOutput.csv,1
+STEO.DFPSPP4.M,"Distillate Fuel Oil PADD 4 (Rocky Mountain) Inventory, Monthly",STEOCompare,STEO,DFPSPP4,PADD4,aSTEO_CurrentOutput.csv,1
+STEO.DFPSPP5.M,"Distillate Fuel Oil PADD 5 (West Coast) Inventory, Monthly",STEOCompare,STEO,DFPSPP5,PADD5,aSTEO_CurrentOutput.csv,1
+STEO.DFPSPUS.M,"Distillate Fuel Oil U.S. Total Inventory, Monthly",STEOCompare,STEO,DFPSPUS,US,aSTEO_CurrentOutput.csv,1
+STEO.DFROPUS.M,"Distillate Fuel Refinery Output, Monthly",STEOCompare,STEO,DFROPUS,US,aSTEO_CurrentOutput.csv,1
+STEO.DSRTUUS.M,"Diesel Fuel Retail Price Including Taxes, U.S. Average, Monthly",STEOCompare,STEO,DSRTUUS,US,aSTEO_CurrentOutput.csv,1
+STEO.DSWHUUS.M,"Diesel Fuel Refiner Wholesale Price, Monthly",STEOCompare,STEO,DSWHUUS,US,aSTEO_CurrentOutput.csv,1
+STEO.EORIPUS.M,"Fuel Ethanol Refinery and Blender Net Inputs, Monthly",STEOCompare,STEO,EORIPUS,US,aSTEO_CurrentOutput.csv,1
+STEO.HORIPUS.M,"Hydrogen and Other Hydrocarbons Refinery and Blender Net Inputs, Monthly",STEOCompare,STEO,HORIPUS,US,aSTEO_CurrentOutput.csv,1
+STEO.JFNIPUS.M,"Jet Fuel Net Imports, Monthly",STEOCompare,STEO,JFNIPUS,US,aSTEO_CurrentOutput.csv,1
+STEO.JFPSPUS.M,"Jet Fuel Inventory, Monthly",STEOCompare,STEO,JFPSPUS,US,aSTEO_CurrentOutput.csv,1
+STEO.JFROPUS.M,"Jet Fuel Refinery Output, Monthly",STEOCompare,STEO,JFROPUS,US,aSTEO_CurrentOutput.csv,1
+STEO.JKTCUUS.M,"Jet Fuel Refiner Price to End Users, Monthly",STEOCompare,STEO,JKTCUUS,US,aSTEO_CurrentOutput.csv,1
+STEO.LGNIPUS.M,"Liquefied Petroleum Gas Net Imports, Monthly",STEOCompare,STEO,LGNIPUS,US,aSTEO_CurrentOutput.csv,1
+STEO.LGPSPUS.M,"Liquefied Petroleum Gas Inventory, Monthly",STEOCompare,STEO,LGPSPUS,US,aSTEO_CurrentOutput.csv,1
+STEO.LGROPUS.M,"Liquefied Petroleum Gas Refinery Output, Monthly",STEOCompare,STEO,LGROPUS,US,aSTEO_CurrentOutput.csv,1
+STEO.MBNIPUS.M,"Motor Gasoline Blend Components Net Imports, Monthly",STEOCompare,STEO,MBNIPUS,US,aSTEO_CurrentOutput.csv,1
+STEO.MBRIPUS.M,"Motor Gasoline Blend Components Refinery Input, Monthly",STEOCompare,STEO,MBRIPUS,US,aSTEO_CurrentOutput.csv,1
+STEO.MGEIAUS.M,"Gasoline All Grades Retail Price Including Taxes U.S. Average, Monthly",STEOCompare,STEO,MGEIAUS,US,aSTEO_CurrentOutput.csv,1
+STEO.MGNIPUS.M,"Finished Motor Gasoline Net Imports, Monthly",STEOCompare,STEO,MGNIPUS,US,aSTEO_CurrentOutput.csv,1
+STEO.MGRARP1.M,"Gasoline Regular Grade Retail Price Incl Taxes, PADD 1 (East Coast), Monthly",STEOCompare,STEO,MGRARP1,PADD1,aSTEO_CurrentOutput.csv,1
+STEO.MGRARP2.M,"Gasoline Regular Grade Retail Price Incl Taxes, PADD 2 (Midwest), Monthly",STEOCompare,STEO,MGRARP2,PADD2,aSTEO_CurrentOutput.csv,1
+STEO.MGRARP3.M,"Gasoline Regular Grade Retail Price Incl Taxes, PADD 3 (Gulf Coast), Monthly",STEOCompare,STEO,MGRARP3,PADD3,aSTEO_CurrentOutput.csv,1
+STEO.MGRARP4.M,"Gasoline Regular Grade Retail Price Incl Taxes, PADD 4 (Rocky Mountain), Monthly",STEOCompare,STEO,MGRARP4,PADD4,aSTEO_CurrentOutput.csv,1
+STEO.MGRARP5.M,"Gasoline Regular Grade Retail Price Incl Taxes, PADD 5 (West Coast), Monthly",STEOCompare,STEO,MGRARP5,PADD5,aSTEO_CurrentOutput.csv,1
+STEO.MGRARUS.M,"Gasoline Regular Grade Retail Price Incl Taxes, U.S. Average, Monthly",STEOCompare,STEO,MGRARUS,US,aSTEO_CurrentOutput.csv,1
+STEO.MGROPUS.M,"Finished Motor Gasoline Refinery Output, Monthly",STEOCompare,STEO,MGROPUS,US,aSTEO_CurrentOutput.csv,1
+STEO.MGTSPP1.M,"Total Motor Gasoline PADD 1 (East Coast) Inventory, Monthly",STEOCompare,STEO,MGTSPP1,PADD1,aSTEO_CurrentOutput.csv,1
+STEO.MGTSPP2.M,"Total Motor Gasoline PADD 2 (Midwest) Inventory, Monthly",STEOCompare,STEO,MGTSPP2,PADD2,aSTEO_CurrentOutput.csv,1
+STEO.MGTSPP3.M,"Total Motor Gasoline PADD 3 (Gulf Coast) Inventory, Monthly",STEOCompare,STEO,MGTSPP3,PADD3,aSTEO_CurrentOutput.csv,1
+STEO.MGTSPP4.M,"Total Motor Gasoline PADD 4 (Rocky Mountain) Inventory, Monthly",STEOCompare,STEO,MGTSPP4,PADD4,aSTEO_CurrentOutput.csv,1
+STEO.MGTSPP5.M,"Total Motor Gasoline PADD 5 (West Coast) Inventory, Monthly",STEOCompare,STEO,MGTSPP5,PADD5,aSTEO_CurrentOutput.csv,1
+STEO.MGTSPUS.M,"Total Motor Gasoline U.S. Total Inventory, Monthly",STEOCompare,STEO,MGTSPUS,US,aSTEO_CurrentOutput.csv,1
+STEO.MGWHUUS.M,"Refiner Wholesale Gasoline Price, Monthly",STEOCompare,STEO,MGWHUUS,US,aSTEO_CurrentOutput.csv,1
+STEO.OHNIPUS.M,"Other HC\/Oxygenates Net Imports, Monthly",STEOCompare,STEO,OHNIPUS,US,aSTEO_CurrentOutput.csv,1
+STEO.OHPSPUS.M,"Other HC\/Oxygenates Inventory, Monthly",STEOCompare,STEO,OHPSPUS,US,aSTEO_CurrentOutput.csv,1
+STEO.ORCAPUS.M,"Refinery Operable Distillation Capacity  , Monthly",STEOCompare,STEO,ORCAPUS,US,aSTEO_CurrentOutput.csv,1
+STEO.ORUTCUS.M,"Refinery Distillation Utilization Factor , Monthly",STEOCompare,STEO,ORUTCUS,US,aSTEO_CurrentOutput.csv,1
+STEO.PARIPUS.M,"Total Refinery Input, Monthly",STEOCompare,STEO,PARIPUS,US,aSTEO_CurrentOutput.csv,1
+STEO.PAROPUS.M,"Total Refinery Output, Monthly",STEOCompare,STEO,PAROPUS,US,aSTEO_CurrentOutput.csv,1
+STEO.PPNIPUS.M,"Natural Gasoline (Pentanes Plus)Net Imports, Monthly",STEOCompare,STEO,PPNIPUS,US,aSTEO_CurrentOutput.csv,1
+STEO.PPRIPUS.M,"Natural Gasoline (Pentanes Plus) Refinery and Blender Net  Input, Monthly",STEOCompare,STEO,PPRIPUS,US,aSTEO_CurrentOutput.csv,1
+STEO.PPTCPUS.M,"Natural Gasoline (Pentanes Plus) Product Supplied, Monthly",STEOCompare,STEO,PPTCPUS,US,aSTEO_CurrentOutput.csv,1
+STEO.PRPSPUS.M,"Propane\/Propylene Oil U.S. Total Inventory, Monthly",STEOCompare,STEO,PRPSPUS,US,aSTEO_CurrentOutput.csv,1
+STEO.PSNIPUS.M,"Other Oils Net Imports, Monthly",STEOCompare,STEO,PSNIPUS,US,aSTEO_CurrentOutput.csv,1
+STEO.PSPSPUS.M,"Other Oils Inventory, Monthly",STEOCompare,STEO,PSPSPUS,US,aSTEO_CurrentOutput.csv,1
+STEO.PSROPUS.M,"Other Oils Refinery Output, Monthly",STEOCompare,STEO,PSROPUS,US,aSTEO_CurrentOutput.csv,1
+STEO.RACPUUS.M,"Refiner Average Crude Oil Acquisition Cost, Monthly",STEOCompare,STEO,RACPUUS,US,aSTEO_CurrentOutput.csv,1
+STEO.RAIMUUS.M,"Imported  Crude Oil Price, Monthly",STEOCompare,STEO,RAIMUUS,US,aSTEO_CurrentOutput.csv,1
+STEO.RFNIPUS.M,"Residual Fuel Oil Net Imports, Monthly",STEOCompare,STEO,RFNIPUS,US,aSTEO_CurrentOutput.csv,1
+STEO.RFPSPUS.M,"Residual Fuel Oil Inventory, Monthly",STEOCompare,STEO,RFPSPUS,US,aSTEO_CurrentOutput.csv,1
+STEO.RFROPUS.M,"Residual Fuel Refinery Output, Monthly",STEOCompare,STEO,RFROPUS,US,aSTEO_CurrentOutput.csv,1
+STEO.RFTCUUS.M,"No. 6 Residual Fuel Oil Price, Monthly",STEOCompare,STEO,RFTCUUS,US,aSTEO_CurrentOutput.csv,1
+STEO.SGTCPUS.M,"Still Gas Product Supplied, Monthly",STEOCompare,STEO,SGTCPUS,US,aSTEO_CurrentOutput.csv,1
+STEO.UONIPUS.M,"Unfinished Oils Net Imports, Monthly",STEOCompare,STEO,UONIPUS,US,aSTEO_CurrentOutput.csv,1
+STEO.UOPSPUS.M,"Unfinished Oils Inventory, Monthly",STEOCompare,STEO,UOPSPUS,US,aSTEO_CurrentOutput.csv,1
+STEO.UORIPUS.M,"Unfinished Oils Refinery Input, Monthly",STEOCompare,STEO,UORIPUS,US,aSTEO_CurrentOutput.csv,1
+STEO.RNRIPUS.M,"Renewable Fuels Except Fuel Ethanol Refinery and Blender Net Inputs, Monthly",STEOCompare,STEO,RNRIPUS,US,aSTEO_CurrentOutput.csv,1
+STEO.ARTCPUS.M,"Asphalt and Road Oil Product Supplied, Monthly",STEOCompare,STEO,ARTCPUS,US,aSTEO_CurrentOutput.csv,1
+STEO.MGTCPUSX.M,"Motor Gasoline Product Supplied, Monthly",STEOCompare,STEO,MGTCPUS,US,aSTEO_CurrentOutput.csv,1
+STEO.PCTCPUS.M,"Petroleum Coke Product Supplied, Monthly",STEOCompare,STEO,PCTCPUS,US,aSTEO_CurrentOutput.csv,1
+STEO.DSTCPUS.M,"Diesel Fuel Consumption, Monthly",STEOCompare,STEO,DSTCPUS,US,aSTEO_CurrentOutput.csv,1
+STEO.JFTCPUS.M,"Jet Fuel Product Supplied, Monthly",STEOCompare,STEO,JFTCPUS,US,aSTEO_CurrentOutput.csv,1
+STEO.PRTCPUS.M,"Propane/Propylene Product Supplied, Monthly",STEOCompare,STEO,PRTCPUS,US,aSTEO_CurrentOutput.csv,1
+STEO.D2TCPUS.M,"Fuel Oil Consumption, Monthly",STEOCompare,STEO,D2TCPUS,US,aSTEO_CurrentOutput.csv,1
+STEO.RFTCPUS.M,"Residual Fuel Oil Product Supplied, Monthly",STEOCompare,STEO,RFTCPUS,US,aSTEO_CurrentOutput.csv,1
+STEO.MZTCPUS.M,"Other Liquid Fuels Product Supplied, Monthly",STEOCompare,STEO,MZTCPUS,US,aSTEO_CurrentOutput.csv,1
+STEO.FETCPUS.M,"Petrochemical Feedstocks Product Supplied, Monthly",STEOCompare,STEO,FETCPUS,US,aSTEO_CurrentOutput.csv,1
+STEO.BREPUUS.M,"Brent crude oil spot price, Monthly",STEOCompare,STEO,BREPUUS,US,aSTEO_CurrentOutput.csv,1
+PET.EMA_EPMR_PWG_R10_DPG.M,Regular Gasoline Wholesale/Resale Price by Refiners,STEOCompare,STEO,MGWHUP1,PADD1,aSTEO_CurrentOutput.csv,100
+PET.EMA_EPMR_PWG_R20_DPG.M,Regular Gasoline Wholesale/Resale Price by Refiners,STEOCompare,STEO,MGWHUP2,PADD2,aSTEO_CurrentOutput.csv,100
+PET.EMA_EPMR_PWG_R30_DPG.M,Regular Gasoline Wholesale/Resale Price by Refiners,STEOCompare,STEO,MGWHUP3,PADD3,aSTEO_CurrentOutput.csv,100
+PET.EMA_EPMR_PWG_R40_DPG.M,Regular Gasoline Wholesale/Resale Price by Refiners,STEOCompare,STEO,MGWHUP4,PADD4,aSTEO_CurrentOutput.csv,100
+PET.EMA_EPMR_PWG_R50_DPG.M,Regular Gasoline Wholesale/Resale Price by Refiners,STEOCompare,STEO,MGWHUP5,PADD5,aSTEO_CurrentOutput.csv,100
+PET.EMA_EPD2_PWG_R10_DPG.M,No 2 Distillate Wholesale/Resale Price by Refiners,STEOCompare,STEO,D2WHUP1,PADD1,aSTEO_CurrentOutput.csv,100
+PET.EMA_EPD2_PWG_R20_DPG.M,No 2 Distillate Wholesale/Resale Price by Refiners,STEOCompare,STEO,D2WHUP2,PADD2,aSTEO_CurrentOutput.csv,100
+PET.EMA_EPD2_PWG_R30_DPG.M,No 2 Distillate Wholesale/Resale Price by Refiners,STEOCompare,STEO,D2WHUP3,PADD3,aSTEO_CurrentOutput.csv,100
+PET.EMA_EPD2_PWG_R40_DPG.M,No 2 Distillate Wholesale/Resale Price by Refiners,STEOCompare,STEO,D2WHUP4,PADD4,aSTEO_CurrentOutput.csv,100
+PET.EMA_EPD2_PWG_R50_DPG.M,No 2 Distillate Wholesale/Resale Price by Refiners,STEOCompare,STEO,D2WHUP5,PADD5,aSTEO_CurrentOutput.csv,100
+PET.EMA_EPJK_PWG_R10_DPG.M,Kerosene-Type Jet Fuel Wholesale/Resale Price by Refiners,STEOCompare,STEO,JKTCUP1,PADD1,aSTEO_CurrentOutput.csv,100
+PET.EMA_EPJK_PWG_R20_DPG.M,Kerosene-Type Jet Fuel Wholesale/Resale Price by Refiners,STEOCompare,STEO,JKTCUP2,PADD2,aSTEO_CurrentOutput.csv,100
+PET.EMA_EPJK_PWG_R30_DPG.M,Kerosene-Type Jet Fuel Wholesale/Resale Price by Refiners,STEOCompare,STEO,JKTCUP3,PADD3,aSTEO_CurrentOutput.csv,100
+PET.EMA_EPJK_PWG_R40_DPG.M,Kerosene-Type Jet Fuel Wholesale/Resale Price by Refiners,STEOCompare,STEO,JKTCUP4,PADD4,aSTEO_CurrentOutput.csv,100
+PET.EMA_EPJK_PWG_R50_DPG.M,Kerosene-Type Jet Fuel Wholesale/Resale Price by Refiners,STEOCompare,STEO,JKTCUP5,PADD5,aSTEO_CurrentOutput.csv,100
+PET.MCRRIP12.M,Refinery and Blender Net Input of Crude Oil,STEOCompare,STEO,CORIPP1,PADD1,aSTEO_CurrentOutput.csv,0.001
+PET.MCRRIP22.M,Refinery and Blender Net Input of Crude Oil,STEOCompare,STEO,CORIPP2,PADD2,aSTEO_CurrentOutput.csv,0.001
+PET.MCRRIP32.M,Refinery and Blender Net Input of Crude Oil,STEOCompare,STEO,CORIPP3,PADD3,aSTEO_CurrentOutput.csv,0.001
+PET.MCRRIP42.M,Refinery and Blender Net Input of Crude Oil,STEOCompare,STEO,CORIPP4,PADD4,aSTEO_CurrentOutput.csv,0.001
+PET.MCRRIP52.M,Refinery and Blender Net Input of Crude Oil,STEOCompare,STEO,CORIPP5,PADD5,aSTEO_CurrentOutput.csv,0.001
+PET.MOCLEP12.M,Operable Crude Oil Distillation Capacity,STEOCompare,STEO,ORCAPP1,PADD1,aSTEO_CurrentOutput.csv,0.001
+PET.MOCLEP22.M,Operable Crude Oil Distillation Capacity,STEOCompare,STEO,ORCAPP2,PADD2,aSTEO_CurrentOutput.csv,0.001
+PET.MOCLEP32.M,Operable Crude Oil Distillation Capacity,STEOCompare,STEO,ORCAPP3,PADD3,aSTEO_CurrentOutput.csv,0.001
+PET.MOCLEP42.M,Operable Crude Oil Distillation Capacity,STEOCompare,STEO,ORCAPP4,PADD4,aSTEO_CurrentOutput.csv,0.001
+PET.MOCLEP52.M,Operable Crude Oil Distillation Capacity,STEOCompare,STEO,ORCAPP5,PADD5,aSTEO_CurrentOutput.csv,0.001
+PET.MOPUEP12.M,Percent Utilization of Refinery Operable Capacity,STEOCompare,STEO,ORUTCP1,PADD1,aSTEO_CurrentOutput.csv,0.01
+PET.MOPUEP22.M,Percent Utilization of Refinery Operable Capacity,STEOCompare,STEO,ORUTCP2,PADD2,aSTEO_CurrentOutput.csv,0.01
+PET.MOPUEP32.M,Percent Utilization of Refinery Operable Capacity,STEOCompare,STEO,ORUTCP3,PADD3,aSTEO_CurrentOutput.csv,0.01
+PET.MOPUEP42.M,Percent Utilization of Refinery Operable Capacity,STEOCompare,STEO,ORUTCP4,PADD4,aSTEO_CurrentOutput.csv,0.01
+PET.MOPUEP52.M,Percent Utilization of Refinery Operable Capacity,STEOCompare,STEO,ORUTCP5,PADD5,aSTEO_CurrentOutput.csv,0.01
+PET.MTTRIP12.M,U.S. Refinery an dBlender Net Input of Crude Oil and Petroleum Products,STEOCompare,STEO,PARIPP1,PADD1,aSTEO_CurrentOutput.csv,0.001
+PET.MTTRIP22.M,U.S. Refinery an dBlender Net Input of Crude Oil and Petroleum Products,STEOCompare,STEO,PARIPP2,PADD2,aSTEO_CurrentOutput.csv,0.001
+PET.MTTRIP32.M,U.S. Refinery an dBlender Net Input of Crude Oil and Petroleum Products,STEOCompare,STEO,PARIPP3,PADD3,aSTEO_CurrentOutput.csv,0.001
+PET.MTTRIP42.M,U.S. Refinery an dBlender Net Input of Crude Oil and Petroleum Products,STEOCompare,STEO,PARIPP4,PADD4,aSTEO_CurrentOutput.csv,0.001
+PET.MTTRIP52.M,U.S. Refinery an dBlender Net Input of Crude Oil and Petroleum Products,STEOCompare,STEO,PARIPP5,PADD5,aSTEO_CurrentOutput.csv,0.001
+PET.MGFRPP11.M,Refiner and Blender Net Production of Finished Motor Gasoline,STEOCompare,STEO,MGROPP1,PADD1,aSTEO_CurrentOutput.csv,0.001
+PET.MGFRPP22.M,Refiner and Blender Net Production of Finished Motor Gasoline,STEOCompare,STEO,MGROPP2,PADD2,aSTEO_CurrentOutput.csv,0.001
+PET.MGFRPP32.M,Refiner and Blender Net Production of Finished Motor Gasoline,STEOCompare,STEO,MGROPP3,PADD3,aSTEO_CurrentOutput.csv,0.001
+PET.MGFRPP42.M,Refiner and Blender Net Production of Finished Motor Gasoline,STEOCompare,STEO,MGROPP4,PADD4,aSTEO_CurrentOutput.csv,0.001
+PET.MGFRPP52.M,Refiner and Blender Net Production of Finished Motor Gasoline,STEOCompare,STEO,MGROPP5,PADD5,aSTEO_CurrentOutput.csv,0.001
+PET.MDIRPP12.M,Refiner and Blender Net Production of Distillate Fuel Oil,STEOCompare,STEO,DFROPP1,PADD1,aSTEO_CurrentOutput.csv,0.001
+PET.MDIRPP22.M,Refiner and Blender Net Production of Distillate Fuel Oil,STEOCompare,STEO,DFROPP2,PADD2,aSTEO_CurrentOutput.csv,0.001
+PET.MDIRPP32.M,Refiner and Blender Net Production of Distillate Fuel Oil,STEOCompare,STEO,DFROPP3,PADD3,aSTEO_CurrentOutput.csv,0.001
+PET.MDIRPP42.M,Refiner and Blender Net Production of Distillate Fuel Oil,STEOCompare,STEO,DFROPP4,PADD4,aSTEO_CurrentOutput.csv,0.001
+PET.MDIRPP52.M,Refiner and Blender Net Production of Distillate Fuel Oil,STEOCompare,STEO,DFROPP5,PADD5,aSTEO_CurrentOutput.csv,0.001
+PET.MKJRPP12.M,Refiner and Blender Net Production of Kerosene-Type Jet Fuel,STEOCompare,STEO,JFROPP1,PADD1,aSTEO_CurrentOutput.csv,0.001
+PET.MKJRPP22.M,Refiner and Blender Net Production of Kerosene-Type Jet Fuel,STEOCompare,STEO,JFROPP2,PADD2,aSTEO_CurrentOutput.csv,0.001
+PET.MKJRPP32.M,Refiner and Blender Net Production of Kerosene-Type Jet Fuel,STEOCompare,STEO,JFROPP3,PADD3,aSTEO_CurrentOutput.csv,0.001
+PET.MKJRPP42.M,Refiner and Blender Net Production of Kerosene-Type Jet Fuel,STEOCompare,STEO,JFROPP4,PADD4,aSTEO_CurrentOutput.csv,0.001
+PET.MKJRPP52.M,Refiner and Blender Net Production of Kerosene-Type Jet Fuel,STEOCompare,STEO,JFROPP5,PADD5,aSTEO_CurrentOutput.csv,0.001
+PET.MRERPP12.M,Refiner and Blender Net Production of Residual Fuel Oil,STEOCompare,STEO,RFROPP1,PADD1,aSTEO_CurrentOutput.csv,0.001
+PET.MRERPP22.M,Refiner and Blender Net Production of Residual Fuel Oil,STEOCompare,STEO,RFROPP2,PADD2,aSTEO_CurrentOutput.csv,0.001
+PET.MRERPP32.M,Refiner and Blender Net Production of Residual Fuel Oil,STEOCompare,STEO,RFROPP3,PADD3,aSTEO_CurrentOutput.csv,0.001
+PET.MRERPP42.M,Refiner and Blender Net Production of Residual Fuel Oil,STEOCompare,STEO,RFROPP4,PADD4,aSTEO_CurrentOutput.csv,0.001
+PET.MRERPP52.M,Refiner and Blender Net Production of Residual Fuel Oil,STEOCompare,STEO,RFROPP5,PADD5,aSTEO_CurrentOutput.csv,0.001
+PET.MTTRPP12.M,Refiner and Blender Net Production of Crude Oil and Petroleum Products,STEOCompare,STEO,PAROPP1,PADD1,aSTEO_CurrentOutput.csv,0.001
+PET.MTTRPP22.M,Refiner and Blender Net Production of Crude Oil and Petroleum Products,STEOCompare,STEO,PAROPP2,PADD2,aSTEO_CurrentOutput.csv,0.001
+PET.MTTRPP32.M,Refiner and Blender Net Production of Crude Oil and Petroleum Products,STEOCompare,STEO,PAROPP3,PADD3,aSTEO_CurrentOutput.csv,0.001
+PET.MTTRPP42.M,Refiner and Blender Net Production of Crude Oil and Petroleum Products,STEOCompare,STEO,PAROPP4,PADD4,aSTEO_CurrentOutput.csv,0.001
+PET.MTTRPP52.M,Refiner and Blender Net Production of Crude Oil and Petroleum Products,STEOCompare,STEO,PAROPP5,PADD5,aSTEO_CurrentOutput.csv,0.001
+PET.MCESTP11.M,"East Coast (PADD 1) Ending Stocks excluding SPR of Crude Oil, Monthly",STEOCompare,STEO,COSXPP1,PADD1,aSTEO_CurrentOutput.csv,0.001
+PET.MCESTP21.M,"Midwest (PADD 2) Ending Stocks excluding SPR of Crude Oil, Monthly",STEOCompare,STEO,COSXPP2,PADD2,aSTEO_CurrentOutput.csv,0.001
+PET.MCESTP31.M,"Gulf Coast (PADD 3) Ending Stocks excluding SPR of Crude Oil, Monthly",STEOCompare,STEO,COSXPP3,PADD3,aSTEO_CurrentOutput.csv,0.001
+PET.MCESTP41.M,"Rocky Mountain (PADD 4) Ending Stocks excluding SPR of Crude Oil, Monthly",STEOCompare,STEO,COSXPP4,PADD4,aSTEO_CurrentOutput.csv,0.001
+PET.MCESTP51.M,"West Coast (PADD 5) Ending Stocks excluding SPR of Crude Oil, Monthly",STEOCompare,STEO,COSXPP5,PADD5,aSTEO_CurrentOutput.csv,0.001
