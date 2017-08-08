@@ -26,14 +26,24 @@ def convertCT(inputFile,outputFile,CTcol):
     col_keys    = sorted(list(set([x for x in input_data[0].keys() if is_number(x)])))
     col_headers = sorted(list(set([x for x in input_data[0].keys() if not is_number(x)])))
 
-    writer.writerow(col_headers + [CTcol,'Value'])
+    if len(col_keys)==0:
+    	col_headers = sorted(list(set([x for x in input_data[0].keys() if x.strip()!='label'])))
+    	writer.writerow(['ColumnLabel','RowLabel','Value'])
+    	for i in input_data:	    	
+	        for j in col_headers:
+	            if i[j].strip(): 
+	                yy = [j] + [i['label']] + ["{:.10f}".format(float(i[j]))]
+	                writer.writerow(yy) 	                
 
-    for i in input_data:
-        xx = [i[x] for x in col_headers]
-        for j in col_keys:
-            if i[j].strip(): 
-                yy = xx + [j] + ["{:.10f}".format(float(i[j]))]
-                writer.writerow(yy)    
+	else:
+	    writer.writerow(col_headers + [CTcol,'Value'])
+
+	    for i in input_data:
+	        xx = [i[x] for x in col_headers]
+	        for j in col_keys:
+	            if i[j].strip(): 
+	                yy = xx + [j] + ["{:.10f}".format(float(i[j]))]
+	                writer.writerow(yy)    
 
     outFile.close()
 

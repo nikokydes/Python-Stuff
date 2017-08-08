@@ -5,17 +5,17 @@
 #
 import sqlite3
 import csv
-from gdxcc import *
 import sys
 import os
-
+sys.path.append('C:/GAMS/win64/24.5/apifiles/Python/api')
+from gdxcc import *
 
 def main(argv=None):
     if argv is None:
         argv = sys.argv
 
 # GAMS GDX API part of the demo
-    GAMSpath = 'c:/gams/win64/24.1'
+    GAMSpath = 'c:/gams/win64/24.5'
 
     gdxHandle = new_gdxHandle_tp()
     rc =  gdxCreateD(gdxHandle, GAMSpath, GMS_SSSIZE)
