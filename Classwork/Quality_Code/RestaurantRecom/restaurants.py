@@ -139,25 +139,23 @@ def read_restaurants(file):
     i = 0
     for count,line in enumerate(input_file):
         i += 1
-        if (count+1)%5 == 0:
-            # Skip every fifth line
+        # Read in the data based on which line in the block it is
+        if   i == 1:
+            thisname = line.strip()
+        elif i == 2:
+            name_to_rating[thisname] = int(line.split('%')[0])
+        elif i == 3:
+            price_to_names[line.strip()].append(thisname)
+        elif i == 4:
+            these_cuisines = line.split(',')
+            for j in these_cuisines:
+                jstripped = j.strip()
+                if jstripped in cuisine_to_names.keys():
+                    cuisine_to_names[jstripped].append(thisname)
+                else:
+                    cuisine_to_names[jstripped] = [thisname]
+        elif i==5:
             i = 0
-        else:
-            # Read in the data based on which line in the block it is
-            if   i == 1:
-                thisname = line.strip()
-            elif i == 2:
-                name_to_rating[thisname] = int(line.split('%')[0])
-            elif i == 3:
-                price_to_names[line.strip()].append(thisname)
-            elif i == 4:
-                these_cuisines = line.split(',')
-                for j in these_cuisines:
-                    jstripped = j.strip()
-                    if jstripped in cuisine_to_names.keys():
-                        cuisine_to_names[jstripped].append(thisname)
-                    else:
-                        cuisine_to_names[jstripped] = [thisname]
                 
     # Close the input file
     input_file.close()
@@ -166,4 +164,4 @@ def read_restaurants(file):
 
 
 
-print(recommend(FILENAME,'$',['Chinese', 'Thai']))
+##print(recommend(FILENAME,'$',['Chinese', 'Thai']))
